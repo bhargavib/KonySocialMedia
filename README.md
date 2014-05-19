@@ -1,4 +1,4 @@
-SocialMedia
+KonySocialMedia
 ===========
 This Application showcases implementation of Oauth2 for Google, Faceboobk and Linkedin for Kony Mobile applications.
 
