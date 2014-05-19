@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<customComponent>
+    <isOverride>false</isOverride>
+    <i18nSupported>true</i18nSupported>
+    <konyWrapperFiles>resources\thirdpartywidgets\widgetwrapper\development-bundle\ui\jquery.ui.button.js</konyWrapperFiles>
+    <konyWrapperFiles>resources\thirdpartywidgets\development-bundle\ui\jquery.ui.button.js</konyWrapperFiles>
+    <libraryFiles>resources\thirdpartywidgets\development-bundle\ui\jquery.ui.button.js</libraryFiles>
+    <libraryFiles>resources\thirdpartywidgets\development-bundle\themes\base\jquery.ui.button.css</libraryFiles>
+    <libraryFiles>resources\thirdpartywidgets\development-bundle\ui\jquery.ui.core.js</libraryFiles>
+    <libraryFiles>resources\thirdpartywidgets\development-bundle\ui\jquery.ui.widget.js</libraryFiles>
+    <libraryName>development-bundle</libraryName>
+    <marginSupported>true</marginSupported>
+    <name>JqueryButton</name>
+    <paddingSupported>true</paddingSupported>
+    <platformID>0</platformID>
+</customComponent>

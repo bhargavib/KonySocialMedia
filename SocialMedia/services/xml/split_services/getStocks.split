@@ -1,0 +1,1047 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<pxsObject>
+    <appSmsCode></appSmsCode>
+    <plainxmlservice>
+        <authenticationMode>basic</authenticationMode>
+        <cacheduration></cacheduration>
+        <cacheable>false</cacheable>
+        <dataprovider></dataprovider>
+        <dcResponse/>
+        <encryptPwd>true</encryptPwd>
+        <escapeXML>false</escapeXML>
+        <group>StockTrack</group>
+        <httpmethod>GET</httpmethod>
+        <id>getStocks</id>
+        <ignoreProxy>true</ignoreProxy>
+        <intemplate></intemplate>
+        <ntlmDomain></ntlmDomain>
+        <ntlmHost></ntlmHost>
+        <outtemplate>&lt;query xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:count="10" yahoo:created="2013-12-06T19:46:16Z" yahoo:lang="en-US"&gt;
+   &lt;results&gt;
+      &lt;quote symbol="AAPL"&gt;
+         &lt;Ask&gt;562.49&lt;/Ask&gt;
+         &lt;AverageDailyVolume&gt;12571700&lt;/AverageDailyVolume&gt;
+         &lt;Bid&gt;562.35&lt;/Bid&gt;
+         &lt;AskRealtime&gt;562.49&lt;/AskRealtime&gt;
+         &lt;BidRealtime&gt;562.35&lt;/BidRealtime&gt;
+         &lt;BookValue&gt;137.397&lt;/BookValue&gt;
+         &lt;Change_PercentChange&gt;-5.481 - -0.97%&lt;/Change_PercentChange&gt;
+         &lt;Change&gt;-5.481&lt;/Change&gt;
+         &lt;Commission/&gt;
+         &lt;ChangeRealtime&gt;-5.481&lt;/ChangeRealtime&gt;
+         &lt;AfterHoursChangeRealtime&gt;N/A - N/A&lt;/AfterHoursChangeRealtime&gt;
+         &lt;DividendShare&gt;11.80&lt;/DividendShare&gt;
+         &lt;LastTradeDate&gt;12/6/2013&lt;/LastTradeDate&gt;
+         &lt;TradeDate/&gt;
+         &lt;EarningsShare&gt;39.75&lt;/EarningsShare&gt;
+         &lt;ErrorIndicationreturnedforsymbolchangedinvalid/&gt;
+         &lt;EPSEstimateCurrentYear&gt;43.47&lt;/EPSEstimateCurrentYear&gt;
+         &lt;EPSEstimateNextYear&gt;47.70&lt;/EPSEstimateNextYear&gt;
+         &lt;EPSEstimateNextQuarter&gt;10.76&lt;/EPSEstimateNextQuarter&gt;
+         &lt;DaysLow&gt;561.29&lt;/DaysLow&gt;
+         &lt;DaysHigh&gt;566.75&lt;/DaysHigh&gt;
+         &lt;YearLow&gt;385.10&lt;/YearLow&gt;
+         &lt;YearHigh&gt;575.14&lt;/YearHigh&gt;
+         &lt;HoldingsGainPercent&gt;- - -&lt;/HoldingsGainPercent&gt;
+         &lt;AnnualizedGain/&gt;
+         &lt;HoldingsGain/&gt;
+         &lt;HoldingsGainPercentRealtime&gt;N/A - N/A&lt;/HoldingsGainPercentRealtime&gt;
+         &lt;HoldingsGainRealtime/&gt;
+         &lt;MoreInfo&gt;cnsprmiIed&lt;/MoreInfo&gt;
+         &lt;OrderBookRealtime/&gt;
+         &lt;MarketCapitalization&gt;506.0B&lt;/MarketCapitalization&gt;
+         &lt;MarketCapRealtime/&gt;
+         &lt;EBITDA&gt;55.756B&lt;/EBITDA&gt;
+         &lt;ChangeFromYearLow&gt;+177.32&lt;/ChangeFromYearLow&gt;
+         &lt;PercentChangeFromYearLow&gt;+46.05%&lt;/PercentChangeFromYearLow&gt;
+         &lt;LastTradeRealtimeWithTime&gt;N/A - &amp;lt;b&amp;gt;562.42&amp;lt;/b&amp;gt;&lt;/LastTradeRealtimeWithTime&gt;
+         &lt;ChangePercentRealtime&gt;N/A - -0.97%&lt;/ChangePercentRealtime&gt;
+         &lt;ChangeFromYearHigh&gt;-12.72&lt;/ChangeFromYearHigh&gt;
+         &lt;PercebtChangeFromYearHigh&gt;-2.21%&lt;/PercebtChangeFromYearHigh&gt;
+         &lt;LastTradeWithTime&gt;2:31pm - &amp;lt;b&amp;gt;562.42&amp;lt;/b&amp;gt;&lt;/LastTradeWithTime&gt;
+         &lt;LastTradePriceOnly&gt;562.42&lt;/LastTradePriceOnly&gt;
+         &lt;HighLimit/&gt;
+         &lt;LowLimit/&gt;
+         &lt;DaysRange&gt;561.29 - 566.75&lt;/DaysRange&gt;
+         &lt;DaysRangeRealtime&gt;N/A - N/A&lt;/DaysRangeRealtime&gt;
+         &lt;FiftydayMovingAverage&gt;527.84&lt;/FiftydayMovingAverage&gt;
+         &lt;TwoHundreddayMovingAverage&gt;475.524&lt;/TwoHundreddayMovingAverage&gt;
+         &lt;ChangeFromTwoHundreddayMovingAverage&gt;+86.896&lt;/ChangeFromTwoHundreddayMovingAverage&gt;
+         &lt;PercentChangeFromTwoHundreddayMovingAverage&gt;+18.27%&lt;/PercentChangeFromTwoHundreddayMovingAverage&gt;
+         &lt;ChangeFromFiftydayMovingAverage&gt;+34.58&lt;/ChangeFromFiftydayMovingAverage&gt;
+         &lt;PercentChangeFromFiftydayMovingAverage&gt;+6.55%&lt;/PercentChangeFromFiftydayMovingAverage&gt;
+         &lt;Name&gt;Apple Inc.&lt;/Name&gt;
+         &lt;Notes/&gt;
+         &lt;Open&gt;565.79&lt;/Open&gt;
+         &lt;PreviousClose&gt;567.901&lt;/PreviousClose&gt;
+         &lt;PricePaid/&gt;
+         &lt;ChangeinPercent&gt;-0.97%&lt;/ChangeinPercent&gt;
+         &lt;PriceSales&gt;2.99&lt;/PriceSales&gt;
+         &lt;PriceBook&gt;4.13&lt;/PriceBook&gt;
+         &lt;ExDividendDate&gt;Nov  6&lt;/ExDividendDate&gt;
+         &lt;PERatio&gt;14.29&lt;/PERatio&gt;
+         &lt;DividendPayDate&gt;Nov 14&lt;/DividendPayDate&gt;
+         &lt;PERatioRealtime/&gt;
+         &lt;PEGRatio&gt;0.91&lt;/PEGRatio&gt;
+         &lt;PriceEPSEstimateCurrentYear&gt;13.06&lt;/PriceEPSEstimateCurrentYear&gt;
+         &lt;PriceEPSEstimateNextYear&gt;11.91&lt;/PriceEPSEstimateNextYear&gt;
+         &lt;Symbol&gt;AAPL&lt;/Symbol&gt;
+         &lt;SharesOwned/&gt;
+         &lt;ShortRatio&gt;1.50&lt;/ShortRatio&gt;
+         &lt;LastTradeTime&gt;2:31pm&lt;/LastTradeTime&gt;
+         &lt;TickerTrend&gt;&amp;amp;nbsp;-+++-+&amp;amp;nbsp;&lt;/TickerTrend&gt;
+         &lt;OneyrTargetPrice&gt;583.15&lt;/OneyrTargetPrice&gt;
+         &lt;Volume&gt;9114742&lt;/Volume&gt;
+         &lt;HoldingsValue/&gt;
+         &lt;HoldingsValueRealtime/&gt;
+         &lt;YearRange&gt;385.10 - 575.14&lt;/YearRange&gt;
+         &lt;DaysValueChange&gt;- - -0.97%&lt;/DaysValueChange&gt;
+         &lt;DaysValueChangeRealtime&gt;N/A - N/A&lt;/DaysValueChangeRealtime&gt;
+         &lt;StockExchange&gt;NasdaqNM&lt;/StockExchange&gt;
+         &lt;DividendYield&gt;2.08&lt;/DividendYield&gt;
+         &lt;PercentChange&gt;-0.97%&lt;/PercentChange&gt;
+      &lt;/quote&gt;
+      &lt;quote symbol="GOOG"&gt;
+         &lt;Ask&gt;1066.91&lt;/Ask&gt;
+         &lt;AverageDailyVolume&gt;1790240&lt;/AverageDailyVolume&gt;
+         &lt;Bid&gt;1066.52&lt;/Bid&gt;
+         &lt;AskRealtime&gt;1066.91&lt;/AskRealtime&gt;
+         &lt;BidRealtime&gt;1066.52&lt;/BidRealtime&gt;
+         &lt;BookValue&gt;248.353&lt;/BookValue&gt;
+         &lt;Change_PercentChange&gt;+9.37 - +0.89%&lt;/Change_PercentChange&gt;
+         &lt;Change&gt;+9.37&lt;/Change&gt;
+         &lt;Commission/&gt;
+         &lt;ChangeRealtime&gt;+9.37&lt;/ChangeRealtime&gt;
+         &lt;AfterHoursChangeRealtime&gt;N/A - N/A&lt;/AfterHoursChangeRealtime&gt;
+         &lt;DividendShare&gt;0.00&lt;/DividendShare&gt;
+         &lt;LastTradeDate&gt;12/6/2013&lt;/LastTradeDate&gt;
+         &lt;TradeDate/&gt;
+         &lt;EarningsShare&gt;36.746&lt;/EarningsShare&gt;
+         &lt;ErrorIndicationreturnedforsymbolchangedinvalid/&gt;
+         &lt;EPSEstimateCurrentYear&gt;44.14&lt;/EPSEstimateCurrentYear&gt;
+         &lt;EPSEstimateNextYear&gt;52.09&lt;/EPSEstimateNextYear&gt;
+         &lt;EPSEstimateNextQuarter&gt;12.26&lt;/EPSEstimateNextQuarter&gt;
+         &lt;DaysLow&gt;1060.08&lt;/DaysLow&gt;
+         &lt;DaysHigh&gt;1069.83&lt;/DaysHigh&gt;
+         &lt;YearLow&gt;682.42&lt;/YearLow&gt;
+         &lt;YearHigh&gt;1068.00&lt;/YearHigh&gt;
+         &lt;HoldingsGainPercent&gt;- - -&lt;/HoldingsGainPercent&gt;
+         &lt;AnnualizedGain/&gt;
+         &lt;HoldingsGain/&gt;
+         &lt;HoldingsGainPercentRealtime&gt;N/A - N/A&lt;/HoldingsGainPercentRealtime&gt;
+         &lt;HoldingsGainRealtime/&gt;
+         &lt;MoreInfo&gt;cnprmiIed&lt;/MoreInfo&gt;
+         &lt;OrderBookRealtime/&gt;
+         &lt;MarketCapitalization&gt;356.4B&lt;/MarketCapitalization&gt;
+         &lt;MarketCapRealtime/&gt;
+         &lt;EBITDA&gt;17.599B&lt;/EBITDA&gt;
+         &lt;ChangeFromYearLow&gt;+384.29&lt;/ChangeFromYearLow&gt;
+         &lt;PercentChangeFromYearLow&gt;+56.31%&lt;/PercentChangeFromYearLow&gt;
+         &lt;LastTradeRealtimeWithTime&gt;N/A - &amp;lt;b&amp;gt;1066.71&amp;lt;/b&amp;gt;&lt;/LastTradeRealtimeWithTime&gt;
+         &lt;ChangePercentRealtime&gt;N/A - +0.89%&lt;/ChangePercentRealtime&gt;
+         &lt;ChangeFromYearHigh&gt;-1.29&lt;/ChangeFromYearHigh&gt;
+         &lt;PercebtChangeFromYearHigh&gt;-0.12%&lt;/PercebtChangeFromYearHigh&gt;
+         &lt;LastTradeWithTime&gt;2:31pm - &amp;lt;b&amp;gt;1066.71&amp;lt;/b&amp;gt;&lt;/LastTradeWithTime&gt;
+         &lt;LastTradePriceOnly&gt;1066.71&lt;/LastTradePriceOnly&gt;
+         &lt;HighLimit/&gt;
+         &lt;LowLimit/&gt;
+         &lt;DaysRange&gt;1060.08 - 1069.83&lt;/DaysRange&gt;
+         &lt;DaysRangeRealtime&gt;N/A - N/A&lt;/DaysRangeRealtime&gt;
+         &lt;FiftydayMovingAverage&gt;1026.72&lt;/FiftydayMovingAverage&gt;
+         &lt;TwoHundreddayMovingAverage&gt;919.401&lt;/TwoHundreddayMovingAverage&gt;
+         &lt;ChangeFromTwoHundreddayMovingAverage&gt;+147.309&lt;/ChangeFromTwoHundreddayMovingAverage&gt;
+         &lt;PercentChangeFromTwoHundreddayMovingAverage&gt;+16.02%&lt;/PercentChangeFromTwoHundreddayMovingAverage&gt;
+         &lt;ChangeFromFiftydayMovingAverage&gt;+39.99&lt;/ChangeFromFiftydayMovingAverage&gt;
+         &lt;PercentChangeFromFiftydayMovingAverage&gt;+3.89%&lt;/PercentChangeFromFiftydayMovingAverage&gt;
+         &lt;Name&gt;Google Inc.&lt;/Name&gt;
+         &lt;Notes/&gt;
+         &lt;Open&gt;1069.8199&lt;/Open&gt;
+         &lt;PreviousClose&gt;1057.34&lt;/PreviousClose&gt;
+         &lt;PricePaid/&gt;
+         &lt;ChangeinPercent&gt;+0.89%&lt;/ChangeinPercent&gt;
+         &lt;PriceSales&gt;6.16&lt;/PriceSales&gt;
+         &lt;PriceBook&gt;4.26&lt;/PriceBook&gt;
+         &lt;ExDividendDate/&gt;
+         &lt;PERatio&gt;28.77&lt;/PERatio&gt;
+         &lt;DividendPayDate/&gt;
+         &lt;PERatioRealtime/&gt;
+         &lt;PEGRatio&gt;1.47&lt;/PEGRatio&gt;
+         &lt;PriceEPSEstimateCurrentYear&gt;23.95&lt;/PriceEPSEstimateCurrentYear&gt;
+         &lt;PriceEPSEstimateNextYear&gt;20.30&lt;/PriceEPSEstimateNextYear&gt;
+         &lt;Symbol&gt;GOOG&lt;/Symbol&gt;
+         &lt;SharesOwned/&gt;
+         &lt;ShortRatio&gt;2.10&lt;/ShortRatio&gt;
+         &lt;LastTradeTime&gt;2:31pm&lt;/LastTradeTime&gt;
+         &lt;TickerTrend&gt;&amp;amp;nbsp;+==+--&amp;amp;nbsp;&lt;/TickerTrend&gt;
+         &lt;OneyrTargetPrice&gt;1097.79&lt;/OneyrTargetPrice&gt;
+         &lt;Volume&gt;950763&lt;/Volume&gt;
+         &lt;HoldingsValue/&gt;
+         &lt;HoldingsValueRealtime/&gt;
+         &lt;YearRange&gt;682.42 - 1068.00&lt;/YearRange&gt;
+         &lt;DaysValueChange&gt;- - +0.89%&lt;/DaysValueChange&gt;
+         &lt;DaysValueChangeRealtime&gt;N/A - N/A&lt;/DaysValueChangeRealtime&gt;
+         &lt;StockExchange&gt;NasdaqNM&lt;/StockExchange&gt;
+         &lt;DividendYield/&gt;
+         &lt;PercentChange&gt;+0.89%&lt;/PercentChange&gt;
+      &lt;/quote&gt;
+      &lt;quote symbol="MSFT"&gt;
+         &lt;Ask&gt;38.30&lt;/Ask&gt;
+         &lt;AverageDailyVolume&gt;45368800&lt;/AverageDailyVolume&gt;
+         &lt;Bid&gt;38.29&lt;/Bid&gt;
+         &lt;AskRealtime&gt;38.30&lt;/AskRealtime&gt;
+         &lt;BidRealtime&gt;38.29&lt;/BidRealtime&gt;
+         &lt;BookValue&gt;9.782&lt;/BookValue&gt;
+         &lt;Change_PercentChange&gt;+0.295 - +0.78%&lt;/Change_PercentChange&gt;
+         &lt;Change&gt;+0.295&lt;/Change&gt;
+         &lt;Commission/&gt;
+         &lt;ChangeRealtime&gt;+0.295&lt;/ChangeRealtime&gt;
+         &lt;AfterHoursChangeRealtime&gt;N/A - N/A&lt;/AfterHoursChangeRealtime&gt;
+         &lt;DividendShare&gt;0.97&lt;/DividendShare&gt;
+         &lt;LastTradeDate&gt;12/6/2013&lt;/LastTradeDate&gt;
+         &lt;TradeDate/&gt;
+         &lt;EarningsShare&gt;2.671&lt;/EarningsShare&gt;
+         &lt;ErrorIndicationreturnedforsymbolchangedinvalid/&gt;
+         &lt;EPSEstimateCurrentYear&gt;2.66&lt;/EPSEstimateCurrentYear&gt;
+         &lt;EPSEstimateNextYear&gt;2.91&lt;/EPSEstimateNextYear&gt;
+         &lt;EPSEstimateNextQuarter&gt;0.66&lt;/EPSEstimateNextQuarter&gt;
+         &lt;DaysLow&gt;37.99&lt;/DaysLow&gt;
+         &lt;DaysHigh&gt;38.55&lt;/DaysHigh&gt;
+         &lt;YearLow&gt;26.28&lt;/YearLow&gt;
+         &lt;YearHigh&gt;38.98&lt;/YearHigh&gt;
+         &lt;HoldingsGainPercent&gt;- - -&lt;/HoldingsGainPercent&gt;
+         &lt;AnnualizedGain/&gt;
+         &lt;HoldingsGain/&gt;
+         &lt;HoldingsGainPercentRealtime&gt;N/A - N/A&lt;/HoldingsGainPercentRealtime&gt;
+         &lt;HoldingsGainRealtime/&gt;
+         &lt;MoreInfo&gt;cn&lt;/MoreInfo&gt;
+         &lt;OrderBookRealtime/&gt;
+         &lt;MarketCapitalization&gt;319.7B&lt;/MarketCapitalization&gt;
+         &lt;MarketCapRealtime/&gt;
+         &lt;EBITDA&gt;31.367B&lt;/EBITDA&gt;
+         &lt;ChangeFromYearLow&gt;+12.015&lt;/ChangeFromYearLow&gt;
+         &lt;PercentChangeFromYearLow&gt;+45.72%&lt;/PercentChangeFromYearLow&gt;
+         &lt;LastTradeRealtimeWithTime&gt;N/A - &amp;lt;b&amp;gt;38.295&amp;lt;/b&amp;gt;&lt;/LastTradeRealtimeWithTime&gt;
+         &lt;ChangePercentRealtime&gt;N/A - +0.78%&lt;/ChangePercentRealtime&gt;
+         &lt;ChangeFromYearHigh&gt;-0.685&lt;/ChangeFromYearHigh&gt;
+         &lt;PercebtChangeFromYearHigh&gt;-1.76%&lt;/PercebtChangeFromYearHigh&gt;
+         &lt;LastTradeWithTime&gt;2:31pm - &amp;lt;b&amp;gt;38.295&amp;lt;/b&amp;gt;&lt;/LastTradeWithTime&gt;
+         &lt;LastTradePriceOnly&gt;38.295&lt;/LastTradePriceOnly&gt;
+         &lt;HighLimit/&gt;
+         &lt;LowLimit/&gt;
+         &lt;DaysRange&gt;37.99 - 38.55&lt;/DaysRange&gt;
+         &lt;DaysRangeRealtime&gt;N/A - N/A&lt;/DaysRangeRealtime&gt;
+         &lt;FiftydayMovingAverage&gt;36.7329&lt;/FiftydayMovingAverage&gt;
+         &lt;TwoHundreddayMovingAverage&gt;34.3045&lt;/TwoHundreddayMovingAverage&gt;
+         &lt;ChangeFromTwoHundreddayMovingAverage&gt;+3.9905&lt;/ChangeFromTwoHundreddayMovingAverage&gt;
+         &lt;PercentChangeFromTwoHundreddayMovingAverage&gt;+11.63%&lt;/PercentChangeFromTwoHundreddayMovingAverage&gt;
+         &lt;ChangeFromFiftydayMovingAverage&gt;+1.5621&lt;/ChangeFromFiftydayMovingAverage&gt;
+         &lt;PercentChangeFromFiftydayMovingAverage&gt;+4.25%&lt;/PercentChangeFromFiftydayMovingAverage&gt;
+         &lt;Name&gt;Microsoft Corpora&lt;/Name&gt;
+         &lt;Notes/&gt;
+         &lt;Open&gt;38.43&lt;/Open&gt;
+         &lt;PreviousClose&gt;38.00&lt;/PreviousClose&gt;
+         &lt;PricePaid/&gt;
+         &lt;ChangeinPercent&gt;+0.78%&lt;/ChangeinPercent&gt;
+         &lt;PriceSales&gt;3.95&lt;/PriceSales&gt;
+         &lt;PriceBook&gt;3.88&lt;/PriceBook&gt;
+         &lt;ExDividendDate&gt;Nov 19&lt;/ExDividendDate&gt;
+         &lt;PERatio&gt;14.23&lt;/PERatio&gt;
+         &lt;DividendPayDate&gt;Mar 13&lt;/DividendPayDate&gt;
+         &lt;PERatioRealtime/&gt;
+         &lt;PEGRatio&gt;2.04&lt;/PEGRatio&gt;
+         &lt;PriceEPSEstimateCurrentYear&gt;14.29&lt;/PriceEPSEstimateCurrentYear&gt;
+         &lt;PriceEPSEstimateNextYear&gt;13.06&lt;/PriceEPSEstimateNextYear&gt;
+         &lt;Symbol&gt;MSFT&lt;/Symbol&gt;
+         &lt;SharesOwned/&gt;
+         &lt;ShortRatio&gt;1.50&lt;/ShortRatio&gt;
+         &lt;LastTradeTime&gt;2:31pm&lt;/LastTradeTime&gt;
+         &lt;TickerTrend&gt;&amp;amp;nbsp;==+==-&amp;amp;nbsp;&lt;/TickerTrend&gt;
+         &lt;OneyrTargetPrice&gt;36.42&lt;/OneyrTargetPrice&gt;
+         &lt;Volume&gt;22857300&lt;/Volume&gt;
+         &lt;HoldingsValue/&gt;
+         &lt;HoldingsValueRealtime/&gt;
+         &lt;YearRange&gt;26.28 - 38.98&lt;/YearRange&gt;
+         &lt;DaysValueChange&gt;- - +0.78%&lt;/DaysValueChange&gt;
+         &lt;DaysValueChangeRealtime&gt;N/A - N/A&lt;/DaysValueChangeRealtime&gt;
+         &lt;StockExchange&gt;NasdaqNM&lt;/StockExchange&gt;
+         &lt;DividendYield&gt;2.55&lt;/DividendYield&gt;
+         &lt;PercentChange&gt;+0.78%&lt;/PercentChange&gt;
+      &lt;/quote&gt;
+      &lt;quote symbol="CSCO"&gt;
+         &lt;Ask&gt;21.23&lt;/Ask&gt;
+         &lt;AverageDailyVolume&gt;42589500&lt;/AverageDailyVolume&gt;
+         &lt;Bid&gt;21.22&lt;/Bid&gt;
+         &lt;AskRealtime&gt;21.23&lt;/AskRealtime&gt;
+         &lt;BidRealtime&gt;21.22&lt;/BidRealtime&gt;
+         &lt;BookValue&gt;11.007&lt;/BookValue&gt;
+         &lt;Change_PercentChange&gt;+0.315 - +1.51%&lt;/Change_PercentChange&gt;
+         &lt;Change&gt;+0.315&lt;/Change&gt;
+         &lt;Commission/&gt;
+         &lt;ChangeRealtime&gt;+0.315&lt;/ChangeRealtime&gt;
+         &lt;AfterHoursChangeRealtime&gt;N/A - N/A&lt;/AfterHoursChangeRealtime&gt;
+         &lt;DividendShare&gt;0.51&lt;/DividendShare&gt;
+         &lt;LastTradeDate&gt;12/6/2013&lt;/LastTradeDate&gt;
+         &lt;TradeDate/&gt;
+         &lt;EarningsShare&gt;1.839&lt;/EarningsShare&gt;
+         &lt;ErrorIndicationreturnedforsymbolchangedinvalid/&gt;
+         &lt;EPSEstimateCurrentYear&gt;1.98&lt;/EPSEstimateCurrentYear&gt;
+         &lt;EPSEstimateNextYear&gt;2.10&lt;/EPSEstimateNextYear&gt;
+         &lt;EPSEstimateNextQuarter&gt;0.48&lt;/EPSEstimateNextQuarter&gt;
+         &lt;DaysLow&gt;21.07&lt;/DaysLow&gt;
+         &lt;DaysHigh&gt;21.24&lt;/DaysHigh&gt;
+         &lt;YearLow&gt;19.16&lt;/YearLow&gt;
+         &lt;YearHigh&gt;26.49&lt;/YearHigh&gt;
+         &lt;HoldingsGainPercent&gt;- - -&lt;/HoldingsGainPercent&gt;
+         &lt;AnnualizedGain/&gt;
+         &lt;HoldingsGain/&gt;
+         &lt;HoldingsGainPercentRealtime&gt;N/A - N/A&lt;/HoldingsGainPercentRealtime&gt;
+         &lt;HoldingsGainRealtime/&gt;
+         &lt;MoreInfo&gt;cn&lt;/MoreInfo&gt;
+         &lt;OrderBookRealtime/&gt;
+         &lt;MarketCapitalization&gt;113.5B&lt;/MarketCapitalization&gt;
+         &lt;MarketCapRealtime/&gt;
+         &lt;EBITDA&gt;13.823B&lt;/EBITDA&gt;
+         &lt;ChangeFromYearLow&gt;+2.065&lt;/ChangeFromYearLow&gt;
+         &lt;PercentChangeFromYearLow&gt;+10.78%&lt;/PercentChangeFromYearLow&gt;
+         &lt;LastTradeRealtimeWithTime&gt;N/A - &amp;lt;b&amp;gt;21.225&amp;lt;/b&amp;gt;&lt;/LastTradeRealtimeWithTime&gt;
+         &lt;ChangePercentRealtime&gt;N/A - +1.51%&lt;/ChangePercentRealtime&gt;
+         &lt;ChangeFromYearHigh&gt;-5.265&lt;/ChangeFromYearHigh&gt;
+         &lt;PercebtChangeFromYearHigh&gt;-19.88%&lt;/PercebtChangeFromYearHigh&gt;
+         &lt;LastTradeWithTime&gt;2:31pm - &amp;lt;b&amp;gt;21.225&amp;lt;/b&amp;gt;&lt;/LastTradeWithTime&gt;
+         &lt;LastTradePriceOnly&gt;21.225&lt;/LastTradePriceOnly&gt;
+         &lt;HighLimit/&gt;
+         &lt;LowLimit/&gt;
+         &lt;DaysRange&gt;21.07 - 21.24&lt;/DaysRange&gt;
+         &lt;DaysRangeRealtime&gt;N/A - N/A&lt;/DaysRangeRealtime&gt;
+         &lt;FiftydayMovingAverage&gt;22.2186&lt;/FiftydayMovingAverage&gt;
+         &lt;TwoHundreddayMovingAverage&gt;23.8945&lt;/TwoHundreddayMovingAverage&gt;
+         &lt;ChangeFromTwoHundreddayMovingAverage&gt;-2.6695&lt;/ChangeFromTwoHundreddayMovingAverage&gt;
+         &lt;PercentChangeFromTwoHundreddayMovingAverage&gt;-11.17%&lt;/PercentChangeFromTwoHundreddayMovingAverage&gt;
+         &lt;ChangeFromFiftydayMovingAverage&gt;-0.9936&lt;/ChangeFromFiftydayMovingAverage&gt;
+         &lt;PercentChangeFromFiftydayMovingAverage&gt;-4.47%&lt;/PercentChangeFromFiftydayMovingAverage&gt;
+         &lt;Name&gt;Cisco Systems, In&lt;/Name&gt;
+         &lt;Notes/&gt;
+         &lt;Open&gt;21.14&lt;/Open&gt;
+         &lt;PreviousClose&gt;20.91&lt;/PreviousClose&gt;
+         &lt;PricePaid/&gt;
+         &lt;ChangeinPercent&gt;+1.51%&lt;/ChangeinPercent&gt;
+         &lt;PriceSales&gt;2.29&lt;/PriceSales&gt;
+         &lt;PriceBook&gt;1.90&lt;/PriceBook&gt;
+         &lt;ExDividendDate&gt;Oct  1&lt;/ExDividendDate&gt;
+         &lt;PERatio&gt;11.37&lt;/PERatio&gt;
+         &lt;DividendPayDate&gt;Oct 23&lt;/DividendPayDate&gt;
+         &lt;PERatioRealtime/&gt;
+         &lt;PEGRatio&gt;1.28&lt;/PEGRatio&gt;
+         &lt;PriceEPSEstimateCurrentYear&gt;10.56&lt;/PriceEPSEstimateCurrentYear&gt;
+         &lt;PriceEPSEstimateNextYear&gt;9.96&lt;/PriceEPSEstimateNextYear&gt;
+         &lt;Symbol&gt;CSCO&lt;/Symbol&gt;
+         &lt;SharesOwned/&gt;
+         &lt;ShortRatio&gt;1.30&lt;/ShortRatio&gt;
+         &lt;LastTradeTime&gt;2:31pm&lt;/LastTradeTime&gt;
+         &lt;TickerTrend&gt;&amp;amp;nbsp;==+=-+&amp;amp;nbsp;&lt;/TickerTrend&gt;
+         &lt;OneyrTargetPrice&gt;23.85&lt;/OneyrTargetPrice&gt;
+         &lt;Volume&gt;33706200&lt;/Volume&gt;
+         &lt;HoldingsValue/&gt;
+         &lt;HoldingsValueRealtime/&gt;
+         &lt;YearRange&gt;19.16 - 26.49&lt;/YearRange&gt;
+         &lt;DaysValueChange&gt;- - +1.51%&lt;/DaysValueChange&gt;
+         &lt;DaysValueChangeRealtime&gt;N/A - N/A&lt;/DaysValueChangeRealtime&gt;
+         &lt;StockExchange&gt;NasdaqNM&lt;/StockExchange&gt;
+         &lt;DividendYield&gt;2.44&lt;/DividendYield&gt;
+         &lt;PercentChange&gt;+1.51%&lt;/PercentChange&gt;
+      &lt;/quote&gt;
+      &lt;quote symbol="BBRY"&gt;
+         &lt;Ask&gt;5.90&lt;/Ask&gt;
+         &lt;AverageDailyVolume&gt;21735500&lt;/AverageDailyVolume&gt;
+         &lt;Bid&gt;5.89&lt;/Bid&gt;
+         &lt;AskRealtime&gt;5.90&lt;/AskRealtime&gt;
+         &lt;BidRealtime&gt;5.89&lt;/BidRealtime&gt;
+         &lt;BookValue&gt;16.37&lt;/BookValue&gt;
+         &lt;Change_PercentChange&gt;0.00 - 0.00%&lt;/Change_PercentChange&gt;
+         &lt;Change&gt;0.00&lt;/Change&gt;
+         &lt;Commission/&gt;
+         &lt;ChangeRealtime&gt;0.00&lt;/ChangeRealtime&gt;
+         &lt;AfterHoursChangeRealtime&gt;N/A - N/A&lt;/AfterHoursChangeRealtime&gt;
+         &lt;DividendShare&gt;0.00&lt;/DividendShare&gt;
+         &lt;LastTradeDate&gt;12/6/2013&lt;/LastTradeDate&gt;
+         &lt;TradeDate/&gt;
+         &lt;EarningsShare&gt;-1.798&lt;/EarningsShare&gt;
+         &lt;ErrorIndicationreturnedforsymbolchangedinvalid/&gt;
+         &lt;EPSEstimateCurrentYear&gt;-1.33&lt;/EPSEstimateCurrentYear&gt;
+         &lt;EPSEstimateNextYear&gt;-1.00&lt;/EPSEstimateNextYear&gt;
+         &lt;EPSEstimateNextQuarter&gt;-0.32&lt;/EPSEstimateNextQuarter&gt;
+         &lt;DaysLow&gt;5.795&lt;/DaysLow&gt;
+         &lt;DaysHigh&gt;5.96&lt;/DaysHigh&gt;
+         &lt;YearLow&gt;5.86&lt;/YearLow&gt;
+         &lt;YearHigh&gt;18.32&lt;/YearHigh&gt;
+         &lt;HoldingsGainPercent&gt;- - -&lt;/HoldingsGainPercent&gt;
+         &lt;AnnualizedGain/&gt;
+         &lt;HoldingsGain/&gt;
+         &lt;HoldingsGainPercentRealtime&gt;N/A - N/A&lt;/HoldingsGainPercentRealtime&gt;
+         &lt;HoldingsGainRealtime/&gt;
+         &lt;MoreInfo&gt;cnpred&lt;/MoreInfo&gt;
+         &lt;OrderBookRealtime/&gt;
+         &lt;MarketCapitalization&gt;3.036B&lt;/MarketCapitalization&gt;
+         &lt;MarketCapRealtime/&gt;
+         &lt;EBITDA&gt;156.0M&lt;/EBITDA&gt;
+         &lt;ChangeFromYearLow&gt;+0.04&lt;/ChangeFromYearLow&gt;
+         &lt;PercentChangeFromYearLow&gt;+0.68%&lt;/PercentChangeFromYearLow&gt;
+         &lt;LastTradeRealtimeWithTime&gt;N/A - &amp;lt;b&amp;gt;5.90&amp;lt;/b&amp;gt;&lt;/LastTradeRealtimeWithTime&gt;
+         &lt;ChangePercentRealtime&gt;N/A - 0.00%&lt;/ChangePercentRealtime&gt;
+         &lt;ChangeFromYearHigh&gt;-12.42&lt;/ChangeFromYearHigh&gt;
+         &lt;PercebtChangeFromYearHigh&gt;-67.79%&lt;/PercebtChangeFromYearHigh&gt;
+         &lt;LastTradeWithTime&gt;2:31pm - &amp;lt;b&amp;gt;5.90&amp;lt;/b&amp;gt;&lt;/LastTradeWithTime&gt;
+         &lt;LastTradePriceOnly&gt;5.90&lt;/LastTradePriceOnly&gt;
+         &lt;HighLimit/&gt;
+         &lt;LowLimit/&gt;
+         &lt;DaysRange&gt;5.795 - 5.96&lt;/DaysRange&gt;
+         &lt;DaysRangeRealtime&gt;N/A - N/A&lt;/DaysRangeRealtime&gt;
+         &lt;FiftydayMovingAverage&gt;6.9726&lt;/FiftydayMovingAverage&gt;
+         &lt;TwoHundreddayMovingAverage&gt;9.7824&lt;/TwoHundreddayMovingAverage&gt;
+         &lt;ChangeFromTwoHundreddayMovingAverage&gt;-3.8824&lt;/ChangeFromTwoHundreddayMovingAverage&gt;
+         &lt;PercentChangeFromTwoHundreddayMovingAverage&gt;-39.69%&lt;/PercentChangeFromTwoHundreddayMovingAverage&gt;
+         &lt;ChangeFromFiftydayMovingAverage&gt;-1.0726&lt;/ChangeFromFiftydayMovingAverage&gt;
+         &lt;PercentChangeFromFiftydayMovingAverage&gt;-15.38%&lt;/PercentChangeFromFiftydayMovingAverage&gt;
+         &lt;Name&gt;BlackBerry Limite&lt;/Name&gt;
+         &lt;Notes/&gt;
+         &lt;Open&gt;5.92&lt;/Open&gt;
+         &lt;PreviousClose&gt;5.90&lt;/PreviousClose&gt;
+         &lt;PricePaid/&gt;
+         &lt;ChangeinPercent&gt;0.00%&lt;/ChangeinPercent&gt;
+         &lt;PriceSales&gt;0.30&lt;/PriceSales&gt;
+         &lt;PriceBook&gt;0.36&lt;/PriceBook&gt;
+         &lt;ExDividendDate/&gt;
+         &lt;PERatio/&gt;
+         &lt;DividendPayDate/&gt;
+         &lt;PERatioRealtime/&gt;
+         &lt;PEGRatio&gt;0.77&lt;/PEGRatio&gt;
+         &lt;PriceEPSEstimateCurrentYear/&gt;
+         &lt;PriceEPSEstimateNextYear/&gt;
+         &lt;Symbol&gt;BBRY&lt;/Symbol&gt;
+         &lt;SharesOwned/&gt;
+         &lt;ShortRatio&gt;9.70&lt;/ShortRatio&gt;
+         &lt;LastTradeTime&gt;2:31pm&lt;/LastTradeTime&gt;
+         &lt;TickerTrend&gt;&amp;amp;nbsp;-+=+==&amp;amp;nbsp;&lt;/TickerTrend&gt;
+         &lt;OneyrTargetPrice&gt;7.18&lt;/OneyrTargetPrice&gt;
+         &lt;Volume&gt;8982477&lt;/Volume&gt;
+         &lt;HoldingsValue/&gt;
+         &lt;HoldingsValueRealtime/&gt;
+         &lt;YearRange&gt;5.86 - 18.32&lt;/YearRange&gt;
+         &lt;DaysValueChange&gt;- - 0.00%&lt;/DaysValueChange&gt;
+         &lt;DaysValueChangeRealtime&gt;N/A - N/A&lt;/DaysValueChangeRealtime&gt;
+         &lt;StockExchange&gt;NasdaqNM&lt;/StockExchange&gt;
+         &lt;DividendYield/&gt;
+         &lt;PercentChange&gt;0.00%&lt;/PercentChange&gt;
+      &lt;/quote&gt;
+      &lt;quote symbol="ORCL"&gt;
+         &lt;Ask/&gt;
+         &lt;AverageDailyVolume&gt;19354700&lt;/AverageDailyVolume&gt;
+         &lt;Bid/&gt;
+         &lt;AskRealtime&gt;35.45&lt;/AskRealtime&gt;
+         &lt;BidRealtime&gt;35.44&lt;/BidRealtime&gt;
+         &lt;BookValue&gt;9.53&lt;/BookValue&gt;
+         &lt;Change_PercentChange&gt;+0.595 - +1.71%&lt;/Change_PercentChange&gt;
+         &lt;Change&gt;+0.595&lt;/Change&gt;
+         &lt;Commission/&gt;
+         &lt;ChangeRealtime&gt;+0.595&lt;/ChangeRealtime&gt;
+         &lt;AfterHoursChangeRealtime&gt;N/A - N/A&lt;/AfterHoursChangeRealtime&gt;
+         &lt;DividendShare&gt;0.42&lt;/DividendShare&gt;
+         &lt;LastTradeDate&gt;12/6/2013&lt;/LastTradeDate&gt;
+         &lt;TradeDate/&gt;
+         &lt;EarningsShare&gt;2.327&lt;/EarningsShare&gt;
+         &lt;ErrorIndicationreturnedforsymbolchangedinvalid/&gt;
+         &lt;EPSEstimateCurrentYear&gt;2.90&lt;/EPSEstimateCurrentYear&gt;
+         &lt;EPSEstimateNextYear&gt;3.17&lt;/EPSEstimateNextYear&gt;
+         &lt;EPSEstimateNextQuarter&gt;0.70&lt;/EPSEstimateNextQuarter&gt;
+         &lt;DaysLow&gt;35.10&lt;/DaysLow&gt;
+         &lt;DaysHigh&gt;35.51&lt;/DaysHigh&gt;
+         &lt;YearLow&gt;29.86&lt;/YearLow&gt;
+         &lt;YearHigh&gt;36.43&lt;/YearHigh&gt;
+         &lt;HoldingsGainPercent&gt;- - -&lt;/HoldingsGainPercent&gt;
+         &lt;AnnualizedGain/&gt;
+         &lt;HoldingsGain/&gt;
+         &lt;HoldingsGainPercentRealtime&gt;N/A - N/A&lt;/HoldingsGainPercentRealtime&gt;
+         &lt;HoldingsGainRealtime/&gt;
+         &lt;MoreInfo&gt;cn&lt;/MoreInfo&gt;
+         &lt;OrderBookRealtime/&gt;
+         &lt;MarketCapitalization&gt;161.5B&lt;/MarketCapitalization&gt;
+         &lt;MarketCapRealtime/&gt;
+         &lt;EBITDA&gt;16.259B&lt;/EBITDA&gt;
+         &lt;ChangeFromYearLow&gt;+5.585&lt;/ChangeFromYearLow&gt;
+         &lt;PercentChangeFromYearLow&gt;+18.70%&lt;/PercentChangeFromYearLow&gt;
+         &lt;LastTradeRealtimeWithTime&gt;N/A - &amp;lt;b&amp;gt;35.445&amp;lt;/b&amp;gt;&lt;/LastTradeRealtimeWithTime&gt;
+         &lt;ChangePercentRealtime&gt;N/A - +1.71%&lt;/ChangePercentRealtime&gt;
+         &lt;ChangeFromYearHigh&gt;-0.985&lt;/ChangeFromYearHigh&gt;
+         &lt;PercebtChangeFromYearHigh&gt;-2.70%&lt;/PercebtChangeFromYearHigh&gt;
+         &lt;LastTradeWithTime&gt;2:31pm - &amp;lt;b&amp;gt;35.445&amp;lt;/b&amp;gt;&lt;/LastTradeWithTime&gt;
+         &lt;LastTradePriceOnly&gt;35.445&lt;/LastTradePriceOnly&gt;
+         &lt;HighLimit/&gt;
+         &lt;LowLimit/&gt;
+         &lt;DaysRange&gt;35.10 - 35.51&lt;/DaysRange&gt;
+         &lt;DaysRangeRealtime&gt;N/A - N/A&lt;/DaysRangeRealtime&gt;
+         &lt;FiftydayMovingAverage&gt;34.1577&lt;/FiftydayMovingAverage&gt;
+         &lt;TwoHundreddayMovingAverage&gt;33.1012&lt;/TwoHundreddayMovingAverage&gt;
+         &lt;ChangeFromTwoHundreddayMovingAverage&gt;+2.3438&lt;/ChangeFromTwoHundreddayMovingAverage&gt;
+         &lt;PercentChangeFromTwoHundreddayMovingAverage&gt;+7.08%&lt;/PercentChangeFromTwoHundreddayMovingAverage&gt;
+         &lt;ChangeFromFiftydayMovingAverage&gt;+1.2873&lt;/ChangeFromFiftydayMovingAverage&gt;
+         &lt;PercentChangeFromFiftydayMovingAverage&gt;+3.77%&lt;/PercentChangeFromFiftydayMovingAverage&gt;
+         &lt;Name&gt;Oracle Corporatio&lt;/Name&gt;
+         &lt;Notes/&gt;
+         &lt;Open&gt;35.15&lt;/Open&gt;
+         &lt;PreviousClose&gt;34.85&lt;/PreviousClose&gt;
+         &lt;PricePaid/&gt;
+         &lt;ChangeinPercent&gt;+1.71%&lt;/ChangeinPercent&gt;
+         &lt;PriceSales&gt;4.25&lt;/PriceSales&gt;
+         &lt;PriceBook&gt;3.66&lt;/PriceBook&gt;
+         &lt;ExDividendDate&gt;Oct  4&lt;/ExDividendDate&gt;
+         &lt;PERatio&gt;14.98&lt;/PERatio&gt;
+         &lt;DividendPayDate&gt;Oct 29&lt;/DividendPayDate&gt;
+         &lt;PERatioRealtime/&gt;
+         &lt;PEGRatio&gt;1.12&lt;/PEGRatio&gt;
+         &lt;PriceEPSEstimateCurrentYear&gt;12.02&lt;/PriceEPSEstimateCurrentYear&gt;
+         &lt;PriceEPSEstimateNextYear&gt;10.99&lt;/PriceEPSEstimateNextYear&gt;
+         &lt;Symbol&gt;ORCL&lt;/Symbol&gt;
+         &lt;SharesOwned/&gt;
+         &lt;ShortRatio&gt;2.40&lt;/ShortRatio&gt;
+         &lt;LastTradeTime&gt;2:31pm&lt;/LastTradeTime&gt;
+         &lt;TickerTrend&gt;&amp;amp;nbsp;=====+&amp;amp;nbsp;&lt;/TickerTrend&gt;
+         &lt;OneyrTargetPrice&gt;36.26&lt;/OneyrTargetPrice&gt;
+         &lt;Volume&gt;10766199&lt;/Volume&gt;
+         &lt;HoldingsValue/&gt;
+         &lt;HoldingsValueRealtime/&gt;
+         &lt;YearRange&gt;29.86 - 36.43&lt;/YearRange&gt;
+         &lt;DaysValueChange&gt;- - +1.71%&lt;/DaysValueChange&gt;
+         &lt;DaysValueChangeRealtime&gt;N/A - N/A&lt;/DaysValueChangeRealtime&gt;
+         &lt;StockExchange&gt;NYSE&lt;/StockExchange&gt;
+         &lt;DividendYield&gt;1.21&lt;/DividendYield&gt;
+         &lt;PercentChange&gt;+1.71%&lt;/PercentChange&gt;
+      &lt;/quote&gt;
+      &lt;quote symbol="IBM"&gt;
+         &lt;Ask/&gt;
+         &lt;AverageDailyVolume&gt;4915060&lt;/AverageDailyVolume&gt;
+         &lt;Bid/&gt;
+         &lt;AskRealtime&gt;177.72&lt;/AskRealtime&gt;
+         &lt;BidRealtime&gt;177.70&lt;/BidRealtime&gt;
+         &lt;BookValue&gt;18.305&lt;/BookValue&gt;
+         &lt;Change_PercentChange&gt;+1.64 - +0.93%&lt;/Change_PercentChange&gt;
+         &lt;Change&gt;+1.64&lt;/Change&gt;
+         &lt;Commission/&gt;
+         &lt;ChangeRealtime&gt;+1.64&lt;/ChangeRealtime&gt;
+         &lt;AfterHoursChangeRealtime&gt;N/A - N/A&lt;/AfterHoursChangeRealtime&gt;
+         &lt;DividendShare&gt;3.70&lt;/DividendShare&gt;
+         &lt;LastTradeDate&gt;12/6/2013&lt;/LastTradeDate&gt;
+         &lt;TradeDate/&gt;
+         &lt;EarningsShare&gt;14.439&lt;/EarningsShare&gt;
+         &lt;ErrorIndicationreturnedforsymbolchangedinvalid/&gt;
+         &lt;EPSEstimateCurrentYear&gt;16.87&lt;/EPSEstimateCurrentYear&gt;
+         &lt;EPSEstimateNextYear&gt;18.01&lt;/EPSEstimateNextYear&gt;
+         &lt;EPSEstimateNextQuarter&gt;3.28&lt;/EPSEstimateNextQuarter&gt;
+         &lt;DaysLow&gt;176.01&lt;/DaysLow&gt;
+         &lt;DaysHigh&gt;178.00&lt;/DaysHigh&gt;
+         &lt;YearLow&gt;172.57&lt;/YearLow&gt;
+         &lt;YearHigh&gt;215.90&lt;/YearHigh&gt;
+         &lt;HoldingsGainPercent&gt;- - -&lt;/HoldingsGainPercent&gt;
+         &lt;AnnualizedGain/&gt;
+         &lt;HoldingsGain/&gt;
+         &lt;HoldingsGainPercentRealtime&gt;N/A - N/A&lt;/HoldingsGainPercentRealtime&gt;
+         &lt;HoldingsGainRealtime/&gt;
+         &lt;MoreInfo&gt;cn&lt;/MoreInfo&gt;
+         &lt;OrderBookRealtime/&gt;
+         &lt;MarketCapitalization&gt;193.0B&lt;/MarketCapitalization&gt;
+         &lt;MarketCapRealtime/&gt;
+         &lt;EBITDA&gt;25.939B&lt;/EBITDA&gt;
+         &lt;ChangeFromYearLow&gt;+5.15&lt;/ChangeFromYearLow&gt;
+         &lt;PercentChangeFromYearLow&gt;+2.98%&lt;/PercentChangeFromYearLow&gt;
+         &lt;LastTradeRealtimeWithTime&gt;N/A - &amp;lt;b&amp;gt;177.72&amp;lt;/b&amp;gt;&lt;/LastTradeRealtimeWithTime&gt;
+         &lt;ChangePercentRealtime&gt;N/A - +0.93%&lt;/ChangePercentRealtime&gt;
+         &lt;ChangeFromYearHigh&gt;-38.18&lt;/ChangeFromYearHigh&gt;
+         &lt;PercebtChangeFromYearHigh&gt;-17.68%&lt;/PercebtChangeFromYearHigh&gt;
+         &lt;LastTradeWithTime&gt;2:31pm - &amp;lt;b&amp;gt;177.72&amp;lt;/b&amp;gt;&lt;/LastTradeWithTime&gt;
+         &lt;LastTradePriceOnly&gt;177.72&lt;/LastTradePriceOnly&gt;
+         &lt;HighLimit/&gt;
+         &lt;LowLimit/&gt;
+         &lt;DaysRange&gt;176.01 - 178.00&lt;/DaysRange&gt;
+         &lt;DaysRangeRealtime&gt;N/A - N/A&lt;/DaysRangeRealtime&gt;
+         &lt;FiftydayMovingAverage&gt;179.364&lt;/FiftydayMovingAverage&gt;
+         &lt;TwoHundreddayMovingAverage&gt;189.582&lt;/TwoHundreddayMovingAverage&gt;
+         &lt;ChangeFromTwoHundreddayMovingAverage&gt;-11.862&lt;/ChangeFromTwoHundreddayMovingAverage&gt;
+         &lt;PercentChangeFromTwoHundreddayMovingAverage&gt;-6.26%&lt;/PercentChangeFromTwoHundreddayMovingAverage&gt;
+         &lt;ChangeFromFiftydayMovingAverage&gt;-1.644&lt;/ChangeFromFiftydayMovingAverage&gt;
+         &lt;PercentChangeFromFiftydayMovingAverage&gt;-0.92%&lt;/PercentChangeFromFiftydayMovingAverage&gt;
+         &lt;Name&gt;International Bus&lt;/Name&gt;
+         &lt;Notes/&gt;
+         &lt;Open&gt;176.70&lt;/Open&gt;
+         &lt;PreviousClose&gt;176.08&lt;/PreviousClose&gt;
+         &lt;PricePaid/&gt;
+         &lt;ChangeinPercent&gt;+0.93%&lt;/ChangeinPercent&gt;
+         &lt;PriceSales&gt;1.89&lt;/PriceSales&gt;
+         &lt;PriceBook&gt;9.62&lt;/PriceBook&gt;
+         &lt;ExDividendDate&gt;Nov  6&lt;/ExDividendDate&gt;
+         &lt;PERatio&gt;12.19&lt;/PERatio&gt;
+         &lt;DividendPayDate&gt;Dec 10&lt;/DividendPayDate&gt;
+         &lt;PERatioRealtime/&gt;
+         &lt;PEGRatio&gt;0.98&lt;/PEGRatio&gt;
+         &lt;PriceEPSEstimateCurrentYear&gt;10.44&lt;/PriceEPSEstimateCurrentYear&gt;
+         &lt;PriceEPSEstimateNextYear&gt;9.78&lt;/PriceEPSEstimateNextYear&gt;
+         &lt;Symbol&gt;IBM&lt;/Symbol&gt;
+         &lt;SharesOwned/&gt;
+         &lt;ShortRatio&gt;3.70&lt;/ShortRatio&gt;
+         &lt;LastTradeTime&gt;2:31pm&lt;/LastTradeTime&gt;
+         &lt;TickerTrend&gt;&amp;amp;nbsp;==++==&amp;amp;nbsp;&lt;/TickerTrend&gt;
+         &lt;OneyrTargetPrice&gt;196.33&lt;/OneyrTargetPrice&gt;
+         &lt;Volume&gt;2813783&lt;/Volume&gt;
+         &lt;HoldingsValue/&gt;
+         &lt;HoldingsValueRealtime/&gt;
+         &lt;YearRange&gt;172.57 - 215.90&lt;/YearRange&gt;
+         &lt;DaysValueChange&gt;- - +0.93%&lt;/DaysValueChange&gt;
+         &lt;DaysValueChangeRealtime&gt;N/A - N/A&lt;/DaysValueChangeRealtime&gt;
+         &lt;StockExchange&gt;NYSE&lt;/StockExchange&gt;
+         &lt;DividendYield&gt;2.10&lt;/DividendYield&gt;
+         &lt;PercentChange&gt;+0.93%&lt;/PercentChange&gt;
+      &lt;/quote&gt;
+      &lt;quote symbol="FB"&gt;
+         &lt;Ask&gt;47.93&lt;/Ask&gt;
+         &lt;AverageDailyVolume&gt;78417904&lt;/AverageDailyVolume&gt;
+         &lt;Bid&gt;47.92&lt;/Bid&gt;
+         &lt;AskRealtime&gt;47.93&lt;/AskRealtime&gt;
+         &lt;BidRealtime&gt;47.92&lt;/BidRealtime&gt;
+         &lt;BookValue&gt;5.348&lt;/BookValue&gt;
+         &lt;Change_PercentChange&gt;-0.4101 - -0.85%&lt;/Change_PercentChange&gt;
+         &lt;Change&gt;-0.4101&lt;/Change&gt;
+         &lt;Commission/&gt;
+         &lt;ChangeRealtime&gt;-0.4101&lt;/ChangeRealtime&gt;
+         &lt;AfterHoursChangeRealtime&gt;N/A - N/A&lt;/AfterHoursChangeRealtime&gt;
+         &lt;DividendShare&gt;0.00&lt;/DividendShare&gt;
+         &lt;LastTradeDate&gt;12/6/2013&lt;/LastTradeDate&gt;
+         &lt;TradeDate/&gt;
+         &lt;EarningsShare&gt;0.391&lt;/EarningsShare&gt;
+         &lt;ErrorIndicationreturnedforsymbolchangedinvalid/&gt;
+         &lt;EPSEstimateCurrentYear&gt;0.83&lt;/EPSEstimateCurrentYear&gt;
+         &lt;EPSEstimateNextYear&gt;1.12&lt;/EPSEstimateNextYear&gt;
+         &lt;EPSEstimateNextQuarter&gt;0.21&lt;/EPSEstimateNextQuarter&gt;
+         &lt;DaysLow&gt;47.71&lt;/DaysLow&gt;
+         &lt;DaysHigh&gt;49.39&lt;/DaysHigh&gt;
+         &lt;YearLow&gt;22.67&lt;/YearLow&gt;
+         &lt;YearHigh&gt;54.83&lt;/YearHigh&gt;
+         &lt;HoldingsGainPercent&gt;- - -&lt;/HoldingsGainPercent&gt;
+         &lt;AnnualizedGain/&gt;
+         &lt;HoldingsGain/&gt;
+         &lt;HoldingsGainPercentRealtime&gt;N/A - N/A&lt;/HoldingsGainPercentRealtime&gt;
+         &lt;HoldingsGainRealtime/&gt;
+         &lt;MoreInfo&gt;cnm&lt;/MoreInfo&gt;
+         &lt;OrderBookRealtime/&gt;
+         &lt;MarketCapitalization&gt;117.7B&lt;/MarketCapitalization&gt;
+         &lt;MarketCapRealtime/&gt;
+         &lt;EBITDA&gt;3.264B&lt;/EBITDA&gt;
+         &lt;ChangeFromYearLow&gt;+25.2599&lt;/ChangeFromYearLow&gt;
+         &lt;PercentChangeFromYearLow&gt;+111.42%&lt;/PercentChangeFromYearLow&gt;
+         &lt;LastTradeRealtimeWithTime&gt;N/A - &amp;lt;b&amp;gt;47.9299&amp;lt;/b&amp;gt;&lt;/LastTradeRealtimeWithTime&gt;
+         &lt;ChangePercentRealtime&gt;N/A - -0.85%&lt;/ChangePercentRealtime&gt;
+         &lt;ChangeFromYearHigh&gt;-6.9001&lt;/ChangeFromYearHigh&gt;
+         &lt;PercebtChangeFromYearHigh&gt;-12.58%&lt;/PercebtChangeFromYearHigh&gt;
+         &lt;LastTradeWithTime&gt;2:31pm - &amp;lt;b&amp;gt;47.9299&amp;lt;/b&amp;gt;&lt;/LastTradeWithTime&gt;
+         &lt;LastTradePriceOnly&gt;47.9299&lt;/LastTradePriceOnly&gt;
+         &lt;HighLimit/&gt;
+         &lt;LowLimit/&gt;
+         &lt;DaysRange&gt;47.71 - 49.39&lt;/DaysRange&gt;
+         &lt;DaysRangeRealtime&gt;N/A - N/A&lt;/DaysRangeRealtime&gt;
+         &lt;FiftydayMovingAverage&gt;48.7551&lt;/FiftydayMovingAverage&gt;
+         &lt;TwoHundreddayMovingAverage&gt;38.4499&lt;/TwoHundreddayMovingAverage&gt;
+         &lt;ChangeFromTwoHundreddayMovingAverage&gt;+9.48&lt;/ChangeFromTwoHundreddayMovingAverage&gt;
+         &lt;PercentChangeFromTwoHundreddayMovingAverage&gt;+24.66%&lt;/PercentChangeFromTwoHundreddayMovingAverage&gt;
+         &lt;ChangeFromFiftydayMovingAverage&gt;-0.8252&lt;/ChangeFromFiftydayMovingAverage&gt;
+         &lt;PercentChangeFromFiftydayMovingAverage&gt;-1.69%&lt;/PercentChangeFromFiftydayMovingAverage&gt;
+         &lt;Name&gt;Facebook, Inc.&lt;/Name&gt;
+         &lt;Notes/&gt;
+         &lt;Open&gt;48.98&lt;/Open&gt;
+         &lt;PreviousClose&gt;48.34&lt;/PreviousClose&gt;
+         &lt;PricePaid/&gt;
+         &lt;ChangeinPercent&gt;-0.85%&lt;/ChangeinPercent&gt;
+         &lt;PriceSales&gt;17.27&lt;/PriceSales&gt;
+         &lt;PriceBook&gt;9.04&lt;/PriceBook&gt;
+         &lt;ExDividendDate/&gt;
+         &lt;PERatio&gt;123.63&lt;/PERatio&gt;
+         &lt;DividendPayDate/&gt;
+         &lt;PERatioRealtime/&gt;
+         &lt;PEGRatio&gt;1.86&lt;/PEGRatio&gt;
+         &lt;PriceEPSEstimateCurrentYear&gt;58.24&lt;/PriceEPSEstimateCurrentYear&gt;
+         &lt;PriceEPSEstimateNextYear&gt;43.16&lt;/PriceEPSEstimateNextYear&gt;
+         &lt;Symbol&gt;FB&lt;/Symbol&gt;
+         &lt;SharesOwned/&gt;
+         &lt;ShortRatio&gt;0.40&lt;/ShortRatio&gt;
+         &lt;LastTradeTime&gt;2:31pm&lt;/LastTradeTime&gt;
+         &lt;TickerTrend&gt;&amp;amp;nbsp;===-++&amp;amp;nbsp;&lt;/TickerTrend&gt;
+         &lt;OneyrTargetPrice&gt;58.52&lt;/OneyrTargetPrice&gt;
+         &lt;Volume&gt;35203648&lt;/Volume&gt;
+         &lt;HoldingsValue/&gt;
+         &lt;HoldingsValueRealtime/&gt;
+         &lt;YearRange&gt;22.67 - 54.83&lt;/YearRange&gt;
+         &lt;DaysValueChange&gt;- - -0.85%&lt;/DaysValueChange&gt;
+         &lt;DaysValueChangeRealtime&gt;N/A - N/A&lt;/DaysValueChangeRealtime&gt;
+         &lt;StockExchange&gt;NasdaqNM&lt;/StockExchange&gt;
+         &lt;DividendYield/&gt;
+         &lt;PercentChange&gt;-0.85%&lt;/PercentChange&gt;
+      &lt;/quote&gt;
+      &lt;quote symbol="NVDA"&gt;
+         &lt;Ask&gt;15.58&lt;/Ask&gt;
+         &lt;AverageDailyVolume&gt;7019440&lt;/AverageDailyVolume&gt;
+         &lt;Bid&gt;15.57&lt;/Bid&gt;
+         &lt;AskRealtime&gt;15.58&lt;/AskRealtime&gt;
+         &lt;BidRealtime&gt;15.57&lt;/BidRealtime&gt;
+         &lt;BookValue&gt;7.60&lt;/BookValue&gt;
+         &lt;Change_PercentChange&gt;-0.12 - -0.76%&lt;/Change_PercentChange&gt;
+         &lt;Change&gt;-0.12&lt;/Change&gt;
+         &lt;Commission/&gt;
+         &lt;ChangeRealtime&gt;-0.12&lt;/ChangeRealtime&gt;
+         &lt;AfterHoursChangeRealtime&gt;N/A - N/A&lt;/AfterHoursChangeRealtime&gt;
+         &lt;DividendShare&gt;0.31&lt;/DividendShare&gt;
+         &lt;LastTradeDate&gt;12/6/2013&lt;/LastTradeDate&gt;
+         &lt;TradeDate/&gt;
+         &lt;EarningsShare&gt;0.774&lt;/EarningsShare&gt;
+         &lt;ErrorIndicationreturnedforsymbolchangedinvalid/&gt;
+         &lt;EPSEstimateCurrentYear&gt;0.67&lt;/EPSEstimateCurrentYear&gt;
+         &lt;EPSEstimateNextYear&gt;0.71&lt;/EPSEstimateNextYear&gt;
+         &lt;EPSEstimateNextQuarter&gt;0.13&lt;/EPSEstimateNextQuarter&gt;
+         &lt;DaysLow&gt;15.51&lt;/DaysLow&gt;
+         &lt;DaysHigh&gt;15.89&lt;/DaysHigh&gt;
+         &lt;YearLow&gt;11.82&lt;/YearLow&gt;
+         &lt;YearHigh&gt;16.32&lt;/YearHigh&gt;
+         &lt;HoldingsGainPercent&gt;- - -&lt;/HoldingsGainPercent&gt;
+         &lt;AnnualizedGain/&gt;
+         &lt;HoldingsGain/&gt;
+         &lt;HoldingsGainPercentRealtime&gt;N/A - N/A&lt;/HoldingsGainPercentRealtime&gt;
+         &lt;HoldingsGainRealtime/&gt;
+         &lt;MoreInfo&gt;cn&lt;/MoreInfo&gt;
+         &lt;OrderBookRealtime/&gt;
+         &lt;MarketCapitalization&gt;8.858B&lt;/MarketCapitalization&gt;
+         &lt;MarketCapRealtime/&gt;
+         &lt;EBITDA&gt;732.4M&lt;/EBITDA&gt;
+         &lt;ChangeFromYearLow&gt;+3.76&lt;/ChangeFromYearLow&gt;
+         &lt;PercentChangeFromYearLow&gt;+31.81%&lt;/PercentChangeFromYearLow&gt;
+         &lt;LastTradeRealtimeWithTime&gt;N/A - &amp;lt;b&amp;gt;15.58&amp;lt;/b&amp;gt;&lt;/LastTradeRealtimeWithTime&gt;
+         &lt;ChangePercentRealtime&gt;N/A - -0.76%&lt;/ChangePercentRealtime&gt;
+         &lt;ChangeFromYearHigh&gt;-0.74&lt;/ChangeFromYearHigh&gt;
+         &lt;PercebtChangeFromYearHigh&gt;-4.53%&lt;/PercebtChangeFromYearHigh&gt;
+         &lt;LastTradeWithTime&gt;2:31pm - &amp;lt;b&amp;gt;15.58&amp;lt;/b&amp;gt;&lt;/LastTradeWithTime&gt;
+         &lt;LastTradePriceOnly&gt;15.58&lt;/LastTradePriceOnly&gt;
+         &lt;HighLimit/&gt;
+         &lt;LowLimit/&gt;
+         &lt;DaysRange&gt;15.51 - 15.89&lt;/DaysRange&gt;
+         &lt;DaysRangeRealtime&gt;N/A - N/A&lt;/DaysRangeRealtime&gt;
+         &lt;FiftydayMovingAverage&gt;15.4977&lt;/FiftydayMovingAverage&gt;
+         &lt;TwoHundreddayMovingAverage&gt;14.9799&lt;/TwoHundreddayMovingAverage&gt;
+         &lt;ChangeFromTwoHundreddayMovingAverage&gt;+0.6001&lt;/ChangeFromTwoHundreddayMovingAverage&gt;
+         &lt;PercentChangeFromTwoHundreddayMovingAverage&gt;+4.01%&lt;/PercentChangeFromTwoHundreddayMovingAverage&gt;
+         &lt;ChangeFromFiftydayMovingAverage&gt;+0.0823&lt;/ChangeFromFiftydayMovingAverage&gt;
+         &lt;PercentChangeFromFiftydayMovingAverage&gt;+0.53%&lt;/PercentChangeFromFiftydayMovingAverage&gt;
+         &lt;Name&gt;NVIDIA Corporatio&lt;/Name&gt;
+         &lt;Notes/&gt;
+         &lt;Open&gt;15.89&lt;/Open&gt;
+         &lt;PreviousClose&gt;15.70&lt;/PreviousClose&gt;
+         &lt;PricePaid/&gt;
+         &lt;ChangeinPercent&gt;-0.76%&lt;/ChangeinPercent&gt;
+         &lt;PriceSales&gt;2.18&lt;/PriceSales&gt;
+         &lt;PriceBook&gt;2.07&lt;/PriceBook&gt;
+         &lt;ExDividendDate&gt;Nov 19&lt;/ExDividendDate&gt;
+         &lt;PERatio&gt;20.28&lt;/PERatio&gt;
+         &lt;DividendPayDate&gt;Dec 13&lt;/DividendPayDate&gt;
+         &lt;PERatioRealtime/&gt;
+         &lt;PEGRatio&gt;1.99&lt;/PEGRatio&gt;
+         &lt;PriceEPSEstimateCurrentYear&gt;23.43&lt;/PriceEPSEstimateCurrentYear&gt;
+         &lt;PriceEPSEstimateNextYear&gt;22.11&lt;/PriceEPSEstimateNextYear&gt;
+         &lt;Symbol&gt;NVDA&lt;/Symbol&gt;
+         &lt;SharesOwned/&gt;
+         &lt;ShortRatio&gt;6.50&lt;/ShortRatio&gt;
+         &lt;LastTradeTime&gt;2:31pm&lt;/LastTradeTime&gt;
+         &lt;TickerTrend&gt;&amp;amp;nbsp;+=====&amp;amp;nbsp;&lt;/TickerTrend&gt;
+         &lt;OneyrTargetPrice&gt;15.08&lt;/OneyrTargetPrice&gt;
+         &lt;Volume&gt;3787413&lt;/Volume&gt;
+         &lt;HoldingsValue/&gt;
+         &lt;HoldingsValueRealtime/&gt;
+         &lt;YearRange&gt;11.82 - 16.32&lt;/YearRange&gt;
+         &lt;DaysValueChange&gt;- - -0.76%&lt;/DaysValueChange&gt;
+         &lt;DaysValueChangeRealtime&gt;N/A - N/A&lt;/DaysValueChangeRealtime&gt;
+         &lt;StockExchange&gt;NasdaqNM&lt;/StockExchange&gt;
+         &lt;DividendYield&gt;1.97&lt;/DividendYield&gt;
+         &lt;PercentChange&gt;-0.76%&lt;/PercentChange&gt;
+      &lt;/quote&gt;
+      &lt;quote symbol="HPQ"&gt;
+         &lt;Ask/&gt;
+         &lt;AverageDailyVolume&gt;16382400&lt;/AverageDailyVolume&gt;
+         &lt;Bid/&gt;
+         &lt;AskRealtime&gt;27.73&lt;/AskRealtime&gt;
+         &lt;BidRealtime&gt;27.72&lt;/BidRealtime&gt;
+         &lt;BookValue&gt;12.754&lt;/BookValue&gt;
+         &lt;Change_PercentChange&gt;+0.48 - +1.76%&lt;/Change_PercentChange&gt;
+         &lt;Change&gt;+0.48&lt;/Change&gt;
+         &lt;Commission/&gt;
+         &lt;ChangeRealtime&gt;+0.48&lt;/ChangeRealtime&gt;
+         &lt;AfterHoursChangeRealtime&gt;N/A - N/A&lt;/AfterHoursChangeRealtime&gt;
+         &lt;DividendShare&gt;0.554&lt;/DividendShare&gt;
+         &lt;LastTradeDate&gt;12/6/2013&lt;/LastTradeDate&gt;
+         &lt;TradeDate/&gt;
+         &lt;EarningsShare&gt;-1.63&lt;/EarningsShare&gt;
+         &lt;ErrorIndicationreturnedforsymbolchangedinvalid/&gt;
+         &lt;EPSEstimateCurrentYear&gt;3.67&lt;/EPSEstimateCurrentYear&gt;
+         &lt;EPSEstimateNextYear&gt;3.78&lt;/EPSEstimateNextYear&gt;
+         &lt;EPSEstimateNextQuarter&gt;0.90&lt;/EPSEstimateNextQuarter&gt;
+         &lt;DaysLow&gt;27.59&lt;/DaysLow&gt;
+         &lt;DaysHigh&gt;28.11&lt;/DaysHigh&gt;
+         &lt;YearLow&gt;13.60&lt;/YearLow&gt;
+         &lt;YearHigh&gt;28.70&lt;/YearHigh&gt;
+         &lt;HoldingsGainPercent&gt;- - -&lt;/HoldingsGainPercent&gt;
+         &lt;AnnualizedGain/&gt;
+         &lt;HoldingsGain/&gt;
+         &lt;HoldingsGainPercentRealtime&gt;N/A - N/A&lt;/HoldingsGainPercentRealtime&gt;
+         &lt;HoldingsGainRealtime/&gt;
+         &lt;MoreInfo&gt;cn&lt;/MoreInfo&gt;
+         &lt;OrderBookRealtime/&gt;
+         &lt;MarketCapitalization&gt;53.292B&lt;/MarketCapitalization&gt;
+         &lt;MarketCapRealtime/&gt;
+         &lt;EBITDA&gt;13.583B&lt;/EBITDA&gt;
+         &lt;ChangeFromYearLow&gt;+14.13&lt;/ChangeFromYearLow&gt;
+         &lt;PercentChangeFromYearLow&gt;+103.90%&lt;/PercentChangeFromYearLow&gt;
+         &lt;LastTradeRealtimeWithTime&gt;N/A - &amp;lt;b&amp;gt;27.73&amp;lt;/b&amp;gt;&lt;/LastTradeRealtimeWithTime&gt;
+         &lt;ChangePercentRealtime&gt;N/A - +1.76%&lt;/ChangePercentRealtime&gt;
+         &lt;ChangeFromYearHigh&gt;-0.97&lt;/ChangeFromYearHigh&gt;
+         &lt;PercebtChangeFromYearHigh&gt;-3.38%&lt;/PercebtChangeFromYearHigh&gt;
+         &lt;LastTradeWithTime&gt;2:31pm - &amp;lt;b&amp;gt;27.73&amp;lt;/b&amp;gt;&lt;/LastTradeWithTime&gt;
+         &lt;LastTradePriceOnly&gt;27.73&lt;/LastTradePriceOnly&gt;
+         &lt;HighLimit/&gt;
+         &lt;LowLimit/&gt;
+         &lt;DaysRange&gt;27.59 - 28.11&lt;/DaysRange&gt;
+         &lt;DaysRangeRealtime&gt;N/A - N/A&lt;/DaysRangeRealtime&gt;
+         &lt;FiftydayMovingAverage&gt;25.3331&lt;/FiftydayMovingAverage&gt;
+         &lt;TwoHundreddayMovingAverage&gt;24.3594&lt;/TwoHundreddayMovingAverage&gt;
+         &lt;ChangeFromTwoHundreddayMovingAverage&gt;+3.3706&lt;/ChangeFromTwoHundreddayMovingAverage&gt;
+         &lt;PercentChangeFromTwoHundreddayMovingAverage&gt;+13.84%&lt;/PercentChangeFromTwoHundreddayMovingAverage&gt;
+         &lt;ChangeFromFiftydayMovingAverage&gt;+2.3969&lt;/ChangeFromFiftydayMovingAverage&gt;
+         &lt;PercentChangeFromFiftydayMovingAverage&gt;+9.46%&lt;/PercentChangeFromFiftydayMovingAverage&gt;
+         &lt;Name&gt;Hewlett-Packard C&lt;/Name&gt;
+         &lt;Notes/&gt;
+         &lt;Open&gt;27.61&lt;/Open&gt;
+         &lt;PreviousClose&gt;27.25&lt;/PreviousClose&gt;
+         &lt;PricePaid/&gt;
+         &lt;ChangeinPercent&gt;+1.76%&lt;/ChangeinPercent&gt;
+         &lt;PriceSales&gt;0.46&lt;/PriceSales&gt;
+         &lt;PriceBook&gt;2.14&lt;/PriceBook&gt;
+         &lt;ExDividendDate&gt;Sep  9&lt;/ExDividendDate&gt;
+         &lt;PERatio/&gt;
+         &lt;DividendPayDate&gt;Jan  2&lt;/DividendPayDate&gt;
+         &lt;PERatioRealtime/&gt;
+         &lt;PEGRatio/&gt;
+         &lt;PriceEPSEstimateCurrentYear&gt;7.43&lt;/PriceEPSEstimateCurrentYear&gt;
+         &lt;PriceEPSEstimateNextYear&gt;7.21&lt;/PriceEPSEstimateNextYear&gt;
+         &lt;Symbol&gt;HPQ&lt;/Symbol&gt;
+         &lt;SharesOwned/&gt;
+         &lt;ShortRatio&gt;2.80&lt;/ShortRatio&gt;
+         &lt;LastTradeTime&gt;2:31pm&lt;/LastTradeTime&gt;
+         &lt;TickerTrend&gt;&amp;amp;nbsp;===+-+&amp;amp;nbsp;&lt;/TickerTrend&gt;
+         &lt;OneyrTargetPrice&gt;26.74&lt;/OneyrTargetPrice&gt;
+         &lt;Volume&gt;11928958&lt;/Volume&gt;
+         &lt;HoldingsValue/&gt;
+         &lt;HoldingsValueRealtime/&gt;
+         &lt;YearRange&gt;13.60 - 28.70&lt;/YearRange&gt;
+         &lt;DaysValueChange&gt;- - +1.76%&lt;/DaysValueChange&gt;
+         &lt;DaysValueChangeRealtime&gt;N/A - N/A&lt;/DaysValueChangeRealtime&gt;
+         &lt;StockExchange&gt;NYSE&lt;/StockExchange&gt;
+         &lt;DividendYield&gt;2.03&lt;/DividendYield&gt;
+         &lt;PercentChange&gt;+1.76%&lt;/PercentChange&gt;
+      &lt;/quote&gt;
+   &lt;/results&gt;
+&lt;/query&gt;
+&lt;!-- total: 434 --&gt;
+&lt;!-- engine10.yql.ne1.yahoo.com --&gt;
+</outtemplate>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>stocks</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>//results</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value></value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>company</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>quote/Name</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>stocks</value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>symbol</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>quote/Symbol</source>
+            <srcformatvalue></srcformatvalue>
+            <target></target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>stocks</value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>price</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>quote/PreviousClose</source>
+            <srcformatvalue></srcformatvalue>
+            <target></target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>stocks</value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>high</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>quote/YearHigh</source>
+            <srcformatvalue></srcformatvalue>
+            <target></target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>stocks</value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>low</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>quote/YearLow</source>
+            <srcformatvalue></srcformatvalue>
+            <target></target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>stocks</value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>last</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>quote/LastTradePriceOnly</source>
+            <srcformatvalue></srcformatvalue>
+            <target></target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>stocks</value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>exchange</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>quote/StockExchange</source>
+            <srcformatvalue></srcformatvalue>
+            <target></target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>stocks</value>
+        </outparam>
+        <password></password>
+        <postclassname></postclassname>
+        <preclassname></preclassname>
+        <proxyname></proxyname>
+        <proxyport></proxyport>
+        <proxypwd></proxypwd>
+        <proxyuserid></proxyuserid>
+        <responseencoding>UTF-8</responseencoding>
+        <smscode></smscode>
+        <smsenabled>false</smsenabled>
+        <timeout></timeout>
+        <url>http://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20yahoo.finance.quotes%20where%20symbol%20in%20%28%22AAPL,GOOG,MSFT,CSCO,BBRY,ORCL,IBM,FB,NVDA,HPQ%22%29&amp;env=store://datatables.org/alltableswithkeys</url>
+        <urlprovider></urlprovider>
+        <userid></userid>
+    </plainxmlservice>
+</pxsObject>
