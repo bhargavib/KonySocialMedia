@@ -15,7 +15,9 @@ configPropeties.js:
 
 // configure your client id and secret here
 
-FBConfig = { 
+FBConfig = 
+	{ 
+	     
 	     "clientID" : "<your client id>", // Client ID obtained from FB app console
               "clientSecret" : "<your client secret>>", // client secret obataiend from FB appconsole
               "state" : "abcd", // any unique identifier
@@ -24,7 +26,8 @@ FBConfig = {
               
 	}
 	
-GoogleConfig = { 
+GoogleConfig = 
+	{ 
 
 	      "clientID" : "<your client id>",// Client ID obtained from Google app console
               "clientSecret" : "<your client secret>>", // client secret obataiend from Google appconsole
@@ -33,12 +36,15 @@ GoogleConfig = {
               "redirectURL" :"http://localhost:8080" // redirect url setup in google app console
 	}
 	
-LinkedInConfig  = { "clientID" : "<your client id>",// Client ID obtained from Google app console
+LinkedInConfig  = 
+	{ 
+	
+	      "clientID" : "<your client id>",// Client ID obtained from Google app console
               "clientSecret" : "<your client secret>>", // client secret obataiend from Google appconsole
               "state" : "abcd",// any unique identifier
               "scope" :"r_basicprofile", // this is default scope
               "redirectURL" :"http://localhost:8080/" // redirect url setup in google app console
-  }
+        }
 
 
 Supported Platforms:
