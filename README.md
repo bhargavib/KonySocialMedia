@@ -6,7 +6,7 @@ To run this app
 
 1. Download the project
 2. Import the project to Kony Studio
-3. Go to modules and open configProperties.js
+3. Go to modules folder and open configProperties.js
 4. Configure your client secret and client id that you got after registering for google or facebobok or linkedIn 
 5. Build and run the app for iphoen or android from Kony Studio
 
@@ -16,6 +16,7 @@ configPropeties.js:
 // configure your client id and secret here
 
 FBConfig = 
+
 	{ 
 	     
 	     "clientID" : "<your client id>", // Client ID obtained from FB app console
@@ -27,6 +28,7 @@ FBConfig =
 	}
 	
 GoogleConfig = 
+
 	{ 
 
 	      "clientID" : "<your client id>",// Client ID obtained from Google app console
@@ -37,6 +39,7 @@ GoogleConfig =
 	}
 	
 LinkedInConfig  = 
+
 	{ 
 	
 	      "clientID" : "<your client id>",// Client ID obtained from Google app console
