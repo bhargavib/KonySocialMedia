@@ -53,9 +53,7 @@ function frmProfileBrowserGlobals() {
         "titleBar": true,
         "titleBarSkin": "sknTitleKonyTheme",
         "titleBarConfig": {
-            "renderTitleText": true,
-            "titleBarLeftSideView": "button",
-            "imageLeftSideView": "back_ico.png"
+            "renderTitleText": true
         },
         "footerOverlap": false,
         "headerOverlap": false,

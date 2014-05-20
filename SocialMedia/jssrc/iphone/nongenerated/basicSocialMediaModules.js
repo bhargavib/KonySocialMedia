@@ -55,7 +55,7 @@ function loginAccountAuth(eventObj) {
 *	Purpose : In this function we handle browser oauth2 redirect request and call linkedin api to exchange code for access token
 ------------------------------------------------------------------------------------------------------------------------------------------------*/
 function handleLinkedinLogin(browserWidget, params) {
-    if (params["originalURL"].search("accounts.google.com") == -1) {
+    if (params["originalURL"].search("accounts.google.com") == -1 && params["queryParams"] != undefined) {
         var linkedinaccessurl = "https://www.linkedin.com/uas/oauth2/accessToken";
         var inputParamTable = {};
         var headers = {};
@@ -96,8 +96,8 @@ function handleFBLogin(browserWidget, params) {
 ------------------------------------------------------------------------------------------------------------------------------------------------*/
 function handleGoogleLogin(browserWidget, params) {
     inputParamTable = {};
-    if (params["originalURL"].search("accounts.google.com") == -1) {
-        kony.print("\n---code---->" + params["queryParams"]["code"]);
+    if (params["originalURL"].search("accounts.google.com") == -1 && params["queryParams"] != undefined) {
+        kony.print("\n---code---->" + JSON.stringify(params));
         inputParamTable["code"] = params["queryParams"]["code"];
         try {
             kony.timer.schedule("timerid", executeTimerGoogle, 1, false);

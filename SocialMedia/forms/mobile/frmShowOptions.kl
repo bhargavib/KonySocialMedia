@@ -498,7 +498,7 @@
                 <serviceType>0</serviceType>
             </leftImgEvtData>
             <leftPrevTitle>false</leftPrevTitle>
-            <leftSideView>2</leftSideView>
+            <leftSideView>0</leftSideView>
             <leftTitle>Back</leftTitle>
             <leftTitleEvtData>
                 <function>None</function>

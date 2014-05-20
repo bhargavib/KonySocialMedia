@@ -2,7 +2,7 @@
 FBConfig = {
     "clientID": "<your client id>",
     // Client ID obtained from FB app console
-    "clientSecret": "<your client secret>>",
+    "clientSecret": "<your client secret>",
     // client secret obataiend from FB appconsole
     "state": "abcd",
     // any unique identifier for your application (optional but recommended)
@@ -11,9 +11,9 @@ FBConfig = {
     "redirectURL": "http://localhost:8080/" // redirect url setup in FB app console
 }
 GoogleConfig = {
-    "clientID": "<your client id>",
+    "clientID": "916193204515.apps.googleusercontent.com",
     // Client ID obtained from Google app console
-    "clientSecret": "<your client secret>>",
+    "clientSecret": "wPaJyozPigSfKEO1SHL5DDP_",
     // client secret obataiend from Google appconsole
     "state": "abcd",
     // any unique identifier for your application (optional but recommended)
@@ -22,9 +22,9 @@ GoogleConfig = {
     "redirectURL": "http://localhost:8080" // redirect url setup in google app console
 }
 LinkedInConfig = {
-    "clientID": "<your client id>",
+    "clientID": "77m9gsdht9h8ud",
     // Client ID obtained from Google app console
-    "clientSecret": "<your client secret>>",
+    "clientSecret": "aMVjxBqL9TYWaFkm",
     // client secret obataiend from Google appconsole
     "state": "abcd",
     // any unique identifier for your application (optional but recommended)

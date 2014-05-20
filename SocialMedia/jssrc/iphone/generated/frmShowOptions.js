@@ -237,9 +237,7 @@ function frmShowOptionsGlobals() {
         "titleBarConfig": {
             "renderTitleText": true,
             "titleBarRightSideView": "button",
-            "titleBarLeftSideView": "button",
             "imageRightSideView": "logout_normal.png",
-            "imageLeftSideView": "back_ico.png",
             "closureRightSideView": appLogOut
         },
         "footerOverlap": false,

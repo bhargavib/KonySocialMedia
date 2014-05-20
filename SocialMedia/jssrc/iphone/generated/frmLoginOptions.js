@@ -161,7 +161,7 @@ function frmLoginOptionsGlobals() {
         "titleBar": true,
         "titleBarSkin": "sknTitleKonyTheme",
         "titleBarConfig": {
-            "renderTitleText": true
+            "renderTitleText": false
         },
         "footerOverlap": false,
         "headerOverlap": false,

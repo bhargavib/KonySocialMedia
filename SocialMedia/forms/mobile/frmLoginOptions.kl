@@ -518,7 +518,7 @@
             <skinID>sknTitleKonyTheme</skinID>
             <usrDefFunction></usrDefFunction>
             <visible>true</visible>
-            <textChecked>true</textChecked>
+            <textChecked>false</textChecked>
         </iphoneTitleBarData>
         <iphone_isModal>false</iphone_isModal>
         <iphone_needsIndctr>true</iphone_needsIndctr>

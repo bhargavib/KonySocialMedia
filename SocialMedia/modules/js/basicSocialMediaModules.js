@@ -65,7 +65,7 @@ function loginAccountAuth(eventObj)
 ------------------------------------------------------------------------------------------------------------------------------------------------*/
 function handleLinkedinLogin(browserWidget,params){
 
-		if(  params ["originalURL"].search("accounts.google.com")==-1)
+		if(  params ["originalURL"].search("accounts.google.com")==-1 && params ["queryParams"]!=undefined)
   		{	
   			
         var linkedinaccessurl = "https://www.linkedin.com/uas/oauth2/accessToken";
@@ -119,8 +119,8 @@ function handleGoogleLogin(browserWidget,params)
 {
 	inputParamTable={};
 	
-	    if( params ["originalURL"].search("accounts.google.com")== -1){
-	    kony.print("\n---code---->"+params ["queryParams"]["code"]);
+	    if( params ["originalURL"].search("accounts.google.com")== -1 && params["queryParams"]!= undefined){
+	   kony.print("\n---code---->"+JSON.stringify(params));
 	    inputParamTable["code"]=params["queryParams"]["code"];
     try{
  		 kony.timer.schedule("timerid", executeTimerGoogle, 1, false);

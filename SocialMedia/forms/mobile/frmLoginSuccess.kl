@@ -525,7 +525,7 @@
             <leftSideView>2</leftSideView>
             <leftTitle>Back</leftTitle>
             <leftTitleEvtData>
-                <function>navFormLoginDetails</function>
+                <function>None</function>
                 <serviceType>0</serviceType>
             </leftTitleEvtData>
             <leftTitleI18Key>None</leftTitleI18Key>
