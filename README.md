@@ -2,7 +2,7 @@ KonySocialMedia
 ===========
 This Application showcases implementation of Oauth2 for Google, Faceboobk and Linkedin for Kony Mobile applications.
 
-To run this app
+# To run this app
 
 1. Download the project
 2. Import the project to Kony Studio
@@ -50,7 +50,7 @@ LinkedInConfig  =
         }
 
 
-Supported Platforms:
+# Supported Platforms:
 
 1. iPhone Native
 2. Android Native
