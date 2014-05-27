@@ -11,8 +11,8 @@ FBConfig =
 	
 GoogleConfig =
 	{ 
-         "clientID" : "916193204515.apps.googleusercontent.com",// Client ID obtained from Google app console
-          "clientSecret" : "wPaJyozPigSfKEO1SHL5DDP_", // client secret obataiend from Google appconsole
+         "clientID" : "<your client id>",// Client ID obtained from Google app console
+          "clientSecret" : "<your client secret>", // client secret obataiend from Google appconsole
           "state" : "abcd", // any unique identifier for your application (optional but recommended)
           "scope" :"profile email", // this is default scope
           "redirectURL" :"http://localhost:8080" // redirect url setup in google app console
@@ -20,8 +20,8 @@ GoogleConfig =
 	
 LinkedInConfig =
 	{ 
-         "clientID" : "77m9gsdht9h8ud",// Client ID obtained from Google app console
-          "clientSecret" : "aMVjxBqL9TYWaFkm", // client secret obataiend from Google appconsole
+         "clientID" : "<your client id>",// Client ID obtained from Google app console
+          "clientSecret" : "<your client secret>", // client secret obataiend from Google appconsole
           "state" : "abcd",// any unique identifier for your application (optional but recommended)
           "scope" :"r_basicprofile", // this is default scope
           "redirectURL" :"http://localhost:8080/" // redirect url setup in google app console
