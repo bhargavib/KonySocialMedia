@@ -86,6 +86,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -223,6 +224,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="null" type="String"/>
         <att name="PgIndicatorImgPositon" value="null" type="String"/>
@@ -368,6 +370,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="Right_font_color" value="0,0,0" type="RGB"/>
         <att name="Right_font_color_alpha" value="0" type="String"/>
@@ -506,6 +509,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -642,6 +646,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -779,6 +784,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -915,6 +921,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -1051,6 +1058,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -1188,6 +1196,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -1324,6 +1333,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -1460,6 +1470,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -1596,6 +1607,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -1732,6 +1744,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -1869,6 +1882,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -2005,6 +2019,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -2147,6 +2162,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -2283,6 +2299,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -2425,6 +2442,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -2561,6 +2579,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -2703,6 +2722,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -2839,6 +2859,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -2975,6 +2996,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="null" type="String"/>
         <att name="PgIndicatorImgPositon" value="null" type="String"/>
@@ -3111,6 +3133,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="null" type="String"/>
         <att name="PgIndicatorImgPositon" value="null" type="String"/>
@@ -3247,6 +3270,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -3384,6 +3408,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -3520,6 +3545,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -3657,6 +3683,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -3794,6 +3821,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -3935,6 +3963,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="null" type="String"/>
         <att name="PgIndicatorImgPositon" value="null" type="String"/>
@@ -4071,6 +4100,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -4207,6 +4237,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -4344,6 +4375,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -4480,6 +4512,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -4616,6 +4649,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -4753,6 +4787,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -4889,6 +4924,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -5026,6 +5062,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -5162,6 +5199,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -5299,6 +5337,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -5435,6 +5474,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -5571,6 +5611,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -5708,6 +5749,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -5844,6 +5886,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -5980,6 +6023,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -6117,6 +6161,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -6254,6 +6299,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -6390,6 +6436,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="null" type="String"/>
         <att name="PgIndicatorImgPositon" value="null" type="String"/>
@@ -6526,6 +6573,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -6663,6 +6711,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -6805,6 +6854,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -6941,6 +6991,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="null" type="String"/>
         <att name="PgIndicatorImgPositon" value="null" type="String"/>
@@ -7077,6 +7128,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -7213,6 +7265,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -7354,6 +7407,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -7490,6 +7544,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -7626,6 +7681,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -7763,6 +7819,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -7900,6 +7957,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -8041,6 +8099,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -8178,6 +8237,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -8314,6 +8374,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -8451,6 +8512,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -8588,6 +8650,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -8724,6 +8787,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -8860,6 +8924,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -8997,6 +9062,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -9134,6 +9200,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="null" type="String"/>
         <att name="PgIndicatorImgPositon" value="null" type="String"/>
@@ -9270,6 +9337,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -9407,6 +9475,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -9543,6 +9612,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -9679,6 +9749,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -9816,6 +9887,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -9952,6 +10024,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -10089,6 +10162,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="null" type="String"/>
         <att name="PgIndicatorImgPositon" value="null" type="String"/>
@@ -10225,6 +10299,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -10370,6 +10445,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="Right_font_color" value="0,0,0" type="RGB"/>
         <att name="Right_font_color_alpha" value="0" type="String"/>
@@ -10508,6 +10584,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -10645,6 +10722,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -10781,6 +10859,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -10923,6 +11002,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -11060,6 +11140,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -11196,6 +11277,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -11338,6 +11420,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -11475,6 +11558,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -11611,6 +11695,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -11748,6 +11833,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -11884,6 +11970,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -12020,6 +12107,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -12156,6 +12244,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -12292,6 +12381,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -12428,6 +12518,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -12564,6 +12655,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -12706,6 +12798,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -12843,6 +12936,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -12980,6 +13074,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -13116,6 +13211,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -13258,6 +13354,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -13394,6 +13491,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -13530,6 +13628,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -13667,6 +13766,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -13803,6 +13903,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -13940,6 +14041,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -14076,6 +14178,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -14213,6 +14316,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -14350,6 +14454,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -14486,6 +14591,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -14628,6 +14734,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="null" type="String"/>
         <att name="PgIndicatorImgPositon" value="null" type="String"/>
@@ -14764,6 +14871,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -14900,6 +15008,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -15042,6 +15151,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -15184,6 +15294,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -15325,6 +15436,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -15466,6 +15578,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -15505,17 +15618,17 @@
 <att name="Shadow_y" value="0" type="Integer"/>
 <att name="BlurRadius" value="0" type="Integer"/>
 <att name="InnerShadow" value="false" type="Boolean"/>
-        <att name="FontNameMap" value="Desktop_web,Roboto-Bold" type="map"/>
-        <att name="FontNameMap" value="iPad,Roboto-Bold" type="map"/>
-        <att name="FontNameMap" value="Android,Roboto-Bold" type="map"/>
-        <att name="FontNameMap" value="IPhone,Roboto-Medium" type="map"/>
+        <att name="FontNameMap" value="Blackberry,Roboto-Bold" type="map"/>
         <att name="FontNameMap" value="WinMobile,SegoeWP" type="map"/>
         <att name="FontNameMap" value="Android Rich Client Tablet,Roboto-Bold" type="map"/>
+        <att name="FontNameMap" value="Desktop_web,Roboto-Bold" type="map"/>
+        <att name="FontNameMap" value="iPad,Roboto-Bold" type="map"/>
         <att name="FontNameMap" value="Windows8,SegoeWP" type="map"/>
-        <att name="FontNameMap" value="SPA Android,Roboto-Bold" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Roboto-Bold" type="map"/>
+        <att name="FontNameMap" value="SPA Android,Roboto-Bold" type="map"/>
         <att name="FontNameMap" value="SPA Blackberry,Roboto-Bold" type="map"/>
-        <att name="FontNameMap" value="Blackberry,Roboto-Bold" type="map"/>
+        <att name="FontNameMap" value="Android,Roboto-Bold" type="map"/>
+        <att name="FontNameMap" value="IPhone,Roboto-Medium" type="map"/>
         <att name="ApplicablePlatforms" value="1111111111111111111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
@@ -15613,6 +15726,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -15755,6 +15869,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -15897,6 +16012,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>

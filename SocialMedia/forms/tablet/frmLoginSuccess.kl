@@ -26,7 +26,7 @@
     <formName>frmLoginSuccess</formName>
     <platform>0</platform>
     <mode>0</mode>
-    <formCategory>0</formCategory>
+    <formCategory>100</formCategory>
     <toList>frmLoginOptions,frmShowOptions</toList>
     <fromList></fromList>
     <headersrcList></headersrcList>
@@ -573,12 +573,12 @@
         <tooltip></tooltip>
         <ipad_popupStyle>0</ipad_popupStyle>
         <ipadTitleBarData>
-            <background_image></background_image>
+            <background_image>blue_pixel.png</background_image>
             <buttonFocusSkinID>Skin Defaults</buttonFocusSkinID>
             <buttonSkinID>Skin Defaults</buttonSkinID>
             <buttonText></buttonText>
             <evtData>
-                <function>None</function>
+                <function>appLogOut</function>
                 <serviceType>0</serviceType>
             </evtData>
             <imagePath></imagePath>
@@ -600,26 +600,26 @@
                 <serviceType>0</serviceType>
             </leftImgEvtData>
             <leftPrevTitle>false</leftPrevTitle>
-            <leftSideView>0</leftSideView>
-            <leftTitle></leftTitle>
+            <leftSideView>2</leftSideView>
+            <leftTitle>Back</leftTitle>
             <leftTitleEvtData>
                 <function>None</function>
                 <serviceType>0</serviceType>
             </leftTitleEvtData>
             <leftTitleI18Key>None</leftTitleI18Key>
-            <leftbtnImgPath></leftbtnImgPath>
-            <rightSideView>0</rightSideView>
+            <leftbtnImgPath>back_ico.png</leftbtnImgPath>
+            <rightSideView>2</rightSideView>
             <rightTitle></rightTitle>
             <rightTitleEvtData>
                 <function>None</function>
                 <serviceType>0</serviceType>
             </rightTitleEvtData>
             <rightTitleI18Key>None</rightTitleI18Key>
-            <rightbtnImgPath></rightbtnImgPath>
+            <rightbtnImgPath>logout_normal.png</rightbtnImgPath>
             <rightbuttonI18Key>None</rightbuttonI18Key>
-            <skinID>Skin Defaults</skinID>
+            <skinID>sknTitleKonyTheme</skinID>
             <usrDefFunction></usrDefFunction>
-            <visible>false</visible>
+            <visible>true</visible>
             <textChecked>true</textChecked>
         </ipadTitleBarData>
         <bb_undockappfooter>false</bb_undockappfooter>
@@ -716,7 +716,7 @@
         <symbian_defaultOutTransition>true</symbian_defaultOutTransition>
         <androidTitleBarData>
             <background_image></background_image>
-            <skinID>sknTitleBarSampleApp</skinID>
+            <skinID>sknTitleKonyTheme</skinID>
             <visible>true</visible>
         </androidTitleBarData>
         <android_softkeyMode>SoftInput adjust resize</android_softkeyMode>
@@ -1420,7 +1420,7 @@
                 <updatedToNewImageData>true</updatedToNewImageData>
             </choiceData>
             <widgetSkin>sknSegTransparent</widgetSkin>
-            <rowSkin>sknSegTransparent</rowSkin>
+            <rowSkin>sknSegKonyThemeWhiteBg</rowSkin>
             <rowFocusSkin>sknSegTransparent</rowFocusSkin>
             <alternateRowSkin>Skin Defaults</alternateRowSkin>
             <secHeaderSkin>Skin Defaults</secHeaderSkin>
@@ -1503,7 +1503,7 @@
                 </evtSequence>
             </iphone_onEditing>
             <iphone_editStyle>SEGUI_EDITING_STYLE_NONE</iphone_editStyle>
-            <ipad_executeonClosure>0</ipad_executeonClosure>
+            <ipad_executeonClosure>2</ipad_executeonClosure>
             <ipad_enableDictionary>false</ipad_enableDictionary>
             <ipad_npi>true</ipad_npi>
             <ipad_pi_color>0</ipad_pi_color>
@@ -1662,13 +1662,13 @@
                     </desktop_web>
                     <desktop_web_override>false</desktop_web_override>
                     <ipad>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
+                        <left>1</left>
+                        <right>1</right>
+                        <top>1</top>
+                        <bottom>1</bottom>
+                        <unit>px</unit>
                     </ipad>
-                    <ipad_override>false</ipad_override>
+                    <ipad_override>true</ipad_override>
                     <iphonerc>
                         <left>1</left>
                         <right>1</right>
@@ -2215,7 +2215,7 @@
                         <width>33</width>
                         <height>100</height>
                     </sizePercent>
-                    <skinId>sknLblFontBold</skinId>
+                    <skinId>sknLblKonyThemeBlue</skinId>
                     <focusSkinId>Skin Defaults</focusSkinId>
                     <localeId>None</localeId>
                     <visible>true</visible>
@@ -2312,13 +2312,13 @@
                         </desktop_web>
                         <desktop_web_override>false</desktop_web_override>
                         <ipad>
-                            <left>0</left>
-                            <right>0</right>
-                            <top>0</top>
-                            <bottom>0</bottom>
-                            <unit>%</unit>
+                            <left>1</left>
+                            <right>1</right>
+                            <top>1</top>
+                            <bottom>1</bottom>
+                            <unit>px</unit>
                         </ipad>
-                        <ipad_override>false</ipad_override>
+                        <ipad_override>true</ipad_override>
                         <iphonerc>
                             <left>1</left>
                             <right>1</right>
@@ -2863,7 +2863,7 @@
                         <width>67</width>
                         <height>100</height>
                     </sizePercent>
-                    <skinId>sknLblBlue</skinId>
+                    <skinId>sknLblKonyThemeBlue</skinId>
                     <focusSkinId>Skin Defaults</focusSkinId>
                     <localeId>None</localeId>
                     <visible>true</visible>
@@ -2960,13 +2960,13 @@
                         </desktop_web>
                         <desktop_web_override>false</desktop_web_override>
                         <ipad>
-                            <left>0</left>
-                            <right>0</right>
-                            <top>0</top>
-                            <bottom>0</bottom>
-                            <unit>%</unit>
+                            <left>1</left>
+                            <right>1</right>
+                            <top>1</top>
+                            <bottom>1</bottom>
+                            <unit>px</unit>
                         </ipad>
-                        <ipad_override>false</ipad_override>
+                        <ipad_override>true</ipad_override>
                         <iphonerc>
                             <left>1</left>
                             <right>1</right>
@@ -3623,13 +3623,13 @@
                 </desktop_web>
                 <desktop_web_override>false</desktop_web_override>
                 <ipad>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
-                    <unit>%</unit>
+                    <left>1</left>
+                    <right>1</right>
+                    <top>1</top>
+                    <bottom>1</bottom>
+                    <unit>px</unit>
                 </ipad>
-                <ipad_override>false</ipad_override>
+                <ipad_override>true</ipad_override>
                 <iphonerc>
                     <left>1</left>
                     <right>1</right>
@@ -4279,13 +4279,13 @@
                     </desktop_web>
                     <desktop_web_override>false</desktop_web_override>
                     <ipad>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
+                        <left>1</left>
+                        <right>1</right>
+                        <top>1</top>
+                        <bottom>1</bottom>
+                        <unit>px</unit>
                     </ipad>
-                    <ipad_override>false</ipad_override>
+                    <ipad_override>true</ipad_override>
                     <iphonerc>
                         <left>1</left>
                         <right>1</right>
@@ -4908,11 +4908,11 @@
                         </desktop_web>
                         <desktop_web_override>false</desktop_web_override>
                         <ipad>
-                            <left>0</left>
-                            <right>0</right>
-                            <top>0</top>
-                            <bottom>0</bottom>
-                            <unit>%</unit>
+                            <left>12</left>
+                            <right>12</right>
+                            <top>15</top>
+                            <bottom>12</bottom>
+                            <unit>px</unit>
                         </ipad>
                         <ipad_override>false</ipad_override>
                         <iphonerc>
@@ -5556,11 +5556,11 @@
                         </desktop_web>
                         <desktop_web_override>false</desktop_web_override>
                         <ipad>
-                            <left>0</left>
-                            <right>0</right>
-                            <top>0</top>
-                            <bottom>0</bottom>
-                            <unit>%</unit>
+                            <left>1</left>
+                            <right>1</right>
+                            <top>1</top>
+                            <bottom>1</bottom>
+                            <unit>px</unit>
                         </ipad>
                         <ipad_override>false</ipad_override>
                         <iphonerc>
@@ -6128,6 +6128,7 @@ kony.application.openURL(URL);</value>
             <projectState>0</projectState>
         </children>
         <overrideProperties>KForm.androidtitleBar</overrideProperties>
+        <overrideProperties>KForm.ipadtitleBar</overrideProperties>
         <overrideProperties>KForm.iphonetitleBar</overrideProperties>
         <winphone8_intransition>Default</winphone8_intransition>
         <winphone8_outtransition>Default</winphone8_outtransition>

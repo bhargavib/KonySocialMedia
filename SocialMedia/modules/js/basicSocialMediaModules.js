@@ -13,23 +13,20 @@ function loginAccountAuth(eventObj)
 	if(eventObj.id == "btnFacebook")
 	{	
 		//check if client id and secret are configured
-		if(chkIfPropertiesConfigured("FB")){
+		if(chkIfPropertiesConfigured("FB"))
+		{
 			var fbURL="https://www.facebook.com/dialog/oauth?response_type=code&client_id="+FBConfig.clientID+"&redirect_uri="+FBConfig.redirectURL+"&state="+FBConfig.state+"&scope="+FBConfig.scope;	
 			frmProfileBrowser.brwsrId.requestURLConfig ={ "URL":fbURL,"requestMethod": constants.BROWSER_REQUEST_METHOD_GET};
 	   		frmProfileBrowser.brwsrId.handleRequest = handleFBLogin;
-		
 		}else{
 			alert("Please configure your client id and secret in the configProperties.js module!!!");	
 			return false;
-		
 		}
-		 
-		
 	}
-	
 	else if(eventObj.id == "btnGoogle")
 	{	
-		if(chkIfPropertiesConfigured("Google")){
+		if(chkIfPropertiesConfigured("Google"))
+		{
 			var googleURL = "https://accounts.google.com/o/oauth2/auth?response_type=code&approval_prompt=force&client_id="+GoogleConfig.clientID+"&redirect_uri="+GoogleConfig.redirectURL+"&scope="+GoogleConfig.scope+"&state="+GoogleConfig.state;	    	
 			frmProfileBrowser.brwsrId.requestURLConfig ={ "URL": googleURL,"requestMethod": constants.BROWSER_REQUEST_METHOD_GET };	
 			frmProfileBrowser.brwsrId.handleRequest = handleGoogleLogin; 
@@ -38,22 +35,18 @@ function loginAccountAuth(eventObj)
 			return false;
 		}   
 	}
-	
 	else if(eventObj.id == "btnLinkedIn")
 	{	
-	
-		if(chkIfPropertiesConfigured("LinkedIn")){
+		if(chkIfPropertiesConfigured("LinkedIn"))
+		{
 			var linkurl = "https://www.linkedin.com/uas/oauth2/authorization?response_type=code&client_id="+LinkedInConfig.clientID+"&scope="+LinkedInConfig.scope+"&state="+LinkedInConfig.state+"&redirect_uri="+LinkedInConfig.redirectURL;	    	
 			frmProfileBrowser.brwsrId.requestURLConfig = {"URL": linkurl,"requestMethod": constants.BROWSER_REQUEST_METHOD_GET};	
 			frmProfileBrowser.brwsrId.handleRequest = handleLinkedinLogin; 	    
 		}else{
 			alert("Please configure your client id and secret in the configProperties.js module!!!");	
 			return false;
-		
 		}
-		
 	}
-	
 	frmProfileBrowser.show();		    
 }
 
@@ -63,11 +56,10 @@ function loginAccountAuth(eventObj)
 *	Author  : Kony Inc.
 *	Purpose : In this function we handle browser oauth2 redirect request and call linkedin api to exchange code for access token
 ------------------------------------------------------------------------------------------------------------------------------------------------*/
-function handleLinkedinLogin(browserWidget,params){
-
-		if(  params ["originalURL"].search("accounts.google.com")==-1 && params ["queryParams"]!=undefined)
-  		{	
-  			
+function handleLinkedinLogin(browserWidget,params)
+{
+	if(  params ["originalURL"].search("accounts.google.com")==-1 && params ["queryParams"]!=undefined)
+	{	
         var linkedinaccessurl = "https://www.linkedin.com/uas/oauth2/accessToken";
         var inputParamTable={};
         var headers ={};
@@ -80,7 +72,7 @@ function handleLinkedinLogin(browserWidget,params){
 	   	inputParamTable["code"]=params ["queryParams"] ["code"];
 	   	inputParamTable["channel"]="rc";
 	   	var connHandle = kony.net.invokeServiceAsync(linkedinaccessurl,inputParamTable,callbackfunctionLinkedIn);                                                           
-  		}else return false;
+	}else return false;
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------------------------
@@ -91,71 +83,64 @@ function handleLinkedinLogin(browserWidget,params){
 
 function handleFBLogin(browserWidget,params)
 {
-	
-		if( params ["originalURL"].search("accounts.google.com")==-1 && params["queryParams"]["code"]!=undefined)
-  		{	
-  			fbURLAccessTokenURL = "https://graph.facebook.com/oauth/access_token?client_id="+FBConfig.clientID+"&redirect_uri="+FBConfig.redirectURL+"&client_secret="+FBConfig.clientSecret+"&code="+params["queryParams"]["code"];
-			  	var response = networkCall(fbURLAccessTokenURL, "GET",null,null);
-			  	kony.print("\n\n\n---fbURLAccessTokenResponse-->"+JSON.stringify(response));
-			  	if(response!= null)
-			  	{
-				  	var response1 = _parseQuerystring("" + response);
-				  	kony.print(":--JS Received Data response1-->" + JSON.stringify(response1));
-				  	fbAcessToken = response1["access_token"];
-				  	getProfileData(response1);
-					return true;
-				}
-  		}
-   		else return false;
+	if( params ["originalURL"].search("accounts.google.com")==-1 && params["queryParams"]["code"]!=undefined)
+	{	
+		fbURLAccessTokenURL = "https://graph.facebook.com/oauth/access_token?client_id="+FBConfig.clientID+"&redirect_uri="+FBConfig.redirectURL+"&client_secret="+FBConfig.clientSecret+"&code="+params["queryParams"]["code"];
+	  	var response = networkCall(fbURLAccessTokenURL, "GET",null,null);
+	  	kony.print("\n\n\n---fbURLAccessTokenResponse-->"+JSON.stringify(response));
+	  	if(response!= null)
+	  	{
+		  	var response1 = _parseQuerystring("" + response);
+		  	kony.print(":--JS Received Data response1-->" + JSON.stringify(response1));
+		  	fbAcessToken = response1["access_token"];
+		  	getProfileData(response1);
+			return true;
+		}
+	}
+	else return false;
 }
-
 
 /*----------------------------------------------------------------------------------------------------------------------------------------------
 *	Name    : handleGoogleLogin
 *	Author  : Kony Inc.
 *	Purpose : In this function we handle browser oauth2 redirect request and call Google api to exchange code for access token
 ------------------------------------------------------------------------------------------------------------------------------------------------*/
+
 function handleGoogleLogin(browserWidget,params)
 {
 	inputParamTable={};
-	
-	    if( params ["originalURL"].search("accounts.google.com")== -1 && params["queryParams"]!= undefined){
-	   kony.print("\n---code---->"+JSON.stringify(params));
-	    inputParamTable["code"]=params["queryParams"]["code"];
-    try{
+	if( params ["originalURL"].search("accounts.google.com")== -1 && params["queryParams"]!= undefined)
+	{
+	     kony.print("\n---code---->"+JSON.stringify(params));
+	     inputParamTable["code"]=params["queryParams"]["code"];
+    	try{
  		 kony.timer.schedule("timerid", executeTimerGoogle, 1, false);
   		}
- 	 catch(err){
+ 	 	catch(err){
    		 kony.print("Timer already exists!!");
 	  	}
-	  }
-  		else return false;
+	 }
+  	else return false;
 }
-
-
 
 function executeTimerGoogle()
 {
-kony.print("\n\n:--in execute timer google\n");
-var googleURLAccessTokenURL = "https://accounts.google.com/o/oauth2/token";
-  var headers ={};
-  headers["Content-Type"] = "application/x-www-form-urlencoded";
-  headers["Host"] = "accounts.google.com";
- 
-  var myhttpheaders={authkey:"myauthkey", authtoken:"myauthtoken"};
-inputParamTable["httpheaders"]=headers;
-inputParamTable["client_id"]=GoogleConfig.clientID;
-inputParamTable["client_secret"]=GoogleConfig.clientSecret;
-inputParamTable["redirect_uri"]=GoogleConfig.redirectURL;
-inputParamTable["grant_type"]="authorization_code";
-inputParamTable["channel"]="rc";
-var connHandle = kony.net.invokeServiceAsync(googleURLAccessTokenURL,inputParamTable,callbackfunction);
-  kony.print("\n\n:--url is-->\n"+JSON.stringify(inputParamTable));
+	kony.print("\n\n:--in execute timer google\n");
+	var googleURLAccessTokenURL = "https://accounts.google.com/o/oauth2/token";
+  	var headers ={};
+  	headers["Content-Type"] = "application/x-www-form-urlencoded";
+  	headers["Host"] = "accounts.google.com";
+ 	var myhttpheaders={authkey:"myauthkey", authtoken:"myauthtoken"};
+	inputParamTable["httpheaders"]=headers;
+	inputParamTable["client_id"]=GoogleConfig.clientID;
+	inputParamTable["client_secret"]=GoogleConfig.clientSecret;
+	inputParamTable["redirect_uri"]=GoogleConfig.redirectURL;
+	inputParamTable["grant_type"]="authorization_code";
+	inputParamTable["channel"]="rc";
+	var connHandle = kony.net.invokeServiceAsync(googleURLAccessTokenURL,inputParamTable,callbackfunction);
+  	kony.print("\n\n:--url is-->\n"+JSON.stringify(inputParamTable));
 //  return true;
 }
-
-
-	
 function callbackfunction(status, resulttable)
 {
 	var segdata =[];
@@ -164,14 +149,12 @@ function callbackfunction(status, resulttable)
 		if(resulttable["access_token"]!= null && resulttable["access_token"]!= undefined)
 		{
 			var access_token = resulttable["access_token"];
-			
 			var googleURL= "https://www.googleapis.com/oauth2/v1/userinfo?alt=json&access_token="+access_token ;
 			var response = networkCall(googleURL, "GET", null, null);
 			showAppData(response);
 		}
 	}
 }
-
 function callbackfunctionLinkedIn(status, resulttable)
 {
 	if(status==400)
@@ -187,7 +170,6 @@ function callbackfunctionLinkedIn(status, resulttable)
 		}
 	}
 }
-
 function getProfileData(response)
 {
 	fbAcessToken=response["access_token"];
@@ -202,9 +184,7 @@ function getProfileData(response)
 function showAppData(response)
 {
 	//error_loading.png
-	
 	segData = [];
-	
 	if(response["name"]!=null && response["name"]!=undefined)
 	{
 		segData.push({"lblKey" : "Name","lblValue":response["name"]});
@@ -216,15 +196,14 @@ function showAppData(response)
 	}
 	if('email' in response) segData.push({"lblKey" : "Email","lblValue":response["email"]});
 	if('gender' in response) segData.push({"lblKey" : "Gender","lblValue":response["gender"]});
-	
 	if('family_name' in response) segData.push({"lblKey" : "family_name","lblValue":response["family_name"]}); 
 	if('given_name' in response) segData.push({"lblKey" : "given_name","lblValue":response["given_name"]});
-	if('headline' in response){
+	if('headline' in response)
+	{
 		frmShowOptions.lblHeadLine.text = response["headline"];
 		segData.push({"lblKey" : "HeadLine","lblValue":response["headline"]});
 	}else frmShowOptions.lblHeadLine.text = "";
-	 
-	if('link' in response)
+	 if('link' in response)
 	{ 
 		frmLoginSuccess.hbxLinkLbl.setVisibility(true);
 		frmLoginSuccess.lblLinkText.text = "Click below link to see more info:";
@@ -271,7 +250,6 @@ function frmLoginSuccessPreShow()
 {		
 	frmLoginSuccess.segFBProfileData.setData(segData);// segData array object is defined in launchParams() function.
 }
-
 var _parseQuerystring = function(queryString) {
   	var params = {}, queries, temp, i, l;
   	queries = queryString.split("&");
@@ -281,8 +259,6 @@ var _parseQuerystring = function(queryString) {
   	}
   	return params;
 };
-
-
 function appLogOut()
 {
 	switch(btnId)
@@ -293,25 +269,20 @@ function appLogOut()
 	}
 	frmProfileBrowser.show();
 }
-
 function fbLogout()
 {
-	
 	fbLogoutUrl="https://www.facebook.com/logout.php?next=http://localhost:8080/&access_token="+fbAcessToken;
-	
 	frmProfileBrowser.brwsrId.requestURLConfig ={ "URL":fbLogoutUrl,"requestMethod": constants.BROWSER_REQUEST_METHOD_GET};
 	frmProfileBrowser.brwsrId.handleRequest=handleLogout;
 }
-
-
 function googleLogout()
 {
 	gLogOutUrl="https://www.google.com/accounts/Logout";
 	frmProfileBrowser.brwsrId.requestURLConfig ={ "URL":gLogOutUrl,"requestMethod": constants.BROWSER_REQUEST_METHOD_POST};
 	frmProfileBrowser.brwsrId.handleRequest=handleLogout;
 }
-
-function handleLogout(browserWidget,params){
-		fbAcessToken="";
-		frmLoginOptions.show();	
+function handleLogout(browserWidget,params)
+{
+	fbAcessToken="";
+	frmLoginOptions.show();	
 }

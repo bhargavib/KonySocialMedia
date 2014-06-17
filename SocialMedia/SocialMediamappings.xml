@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<application name="SocialMedia" id="SocialMedia">
-    <container type="dialog" id="loginSuccessHdr" displayname="Popup"/>
-    <container type="form" id="frmLoginOptions" displayname="Form"/>
-    <container type="form" id="frmLoginSuccess" displayname="Form"/>
-    <container type="form" id="frmProfileBrowser" displayname="Form"/>
-    <container type="form" id="frmShowOptions" displayname="Form"/>
+<application id="SocialMedia" name="SocialMedia">
+    <container displayname="Form" id="frmLoginOptions" type="form"/>
+    <container displayname="Form" id="frmLoginSuccess" type="form"/>
+    <container displayname="Form" id="frmProfileBrowser" type="form"/>
+    <container displayname="Form" id="frmShowOptions" type="form"/>
     <globalsequences/>
     <skins/>
 </application>
