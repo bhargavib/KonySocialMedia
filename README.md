@@ -51,6 +51,10 @@ LinkedInConfig  =
 
 
 # Supported Platforms:
+**Mobile**
+ * iPhone Native
+ * Android Native
 
-1. iPhone Native
-2. Android Native
+**Tablet**
+ * iPad
+ * Android
