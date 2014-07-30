@@ -123,6 +123,12 @@ function handleGoogleLogin(browserWidget,params)
   	else return false;
 }
 
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------
+*	Name    : executeTimerGoogle
+*	Author  : Kony Inc.
+*	Purpose : In this function we handle browser oauth2 redirect request and call Google api to exchange code for access token
+------------------------------------------------------------------------------------------------------------------------------------------------*/
 function executeTimerGoogle()
 {
 	kony.print("\n\n:--in execute timer google\n");
@@ -141,6 +147,13 @@ function executeTimerGoogle()
   	kony.print("\n\n:--url is-->\n"+JSON.stringify(inputParamTable));
 //  return true;
 }
+
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------
+*	Name    : callbackfunction
+*	Author  : Kony Inc.
+*	Purpose : This is callback for parsing the accesstoken from the resulttable and calling google api to get userinfo
+------------------------------------------------------------------------------------------------------------------------------------------------*/
 function callbackfunction(status, resulttable)
 {
 	var segdata =[];
@@ -155,6 +168,12 @@ function callbackfunction(status, resulttable)
 		}
 	}
 }
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------
+*	Name    : callbackfunctionLinkedIn
+*	Author  : Kony Inc.
+*	Purpose : This is callback for parsing the accesstoken from the resulttable and calling linkedin api to get userinfo
+------------------------------------------------------------------------------------------------------------------------------------------------*/
 function callbackfunctionLinkedIn(status, resulttable)
 {
 	if(status==400)
@@ -170,6 +189,12 @@ function callbackfunctionLinkedIn(status, resulttable)
 		}
 	}
 }
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------
+*	Name    : getProfileData
+*	Author  : Kony Inc.
+*	Purpose : This is callback for parsing the accesstoken from the resulttable and calling Facebook api to get userinfo
+------------------------------------------------------------------------------------------------------------------------------------------------*/
 function getProfileData(response)
 {
 	fbAcessToken=response["access_token"];
@@ -181,6 +206,65 @@ function getProfileData(response)
 		showAppData(response2);
 	}
 }
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------
+*	Name    : postMsgToFB
+*	Author  : Kony Inc.
+*	Purpose : In this function, we handle code to post message to FB wall
+------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+function postMsgToFB(){
+	var post_url = "https://graph.facebook.com/me/feed";
+	var headers ={};
+  	headers["Content-Type"] = "application/x-www-form-urlencoded";
+  	headers["Host"] = "graph.facebook.com";
+  	var inputParamTable={};
+  	var messageFB = popPostMsg.txtarMsg.text;
+
+	inputParamTable["httpheaders"]=headers;
+	inputParamTable["client_id"]=FBConfig.clientID;
+	inputParamTable["client_secret"]=FBConfig.clientSecret;
+	inputParamTable["redirect_uri"]=FBConfig.redirectURL;
+	inputParamTable["message"]=messageFB;
+	inputParamTable["access_token"]=fbAcessToken;
+	inputParamTable["channel"]="rc";
+	var connHandle = kony.net.invokeServiceAsync(post_url,inputParamTable,callbackfunctionFBPost);
+
+}
+
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------
+*	Name    : callbackfunctionFBPost
+*	Author  : Kony Inc.
+*	Purpose : In this callback function, we handle the result for post message to FB wall
+------------------------------------------------------------------------------------------------------------------------------------------------*/
+function callbackfunctionFBPost(status,resulttable){
+
+	if(status==400){
+		if(resulttable["id"]!=null){
+			alert("Message posted successfully to your FB wall");
+			popPostMsg.dismiss();
+		}else if(resulttable["httpresponse"]["responsecode"]!=null && resulttable["httpresponse"]["responsecode"]==500){
+			
+			 if(resulttable["httpresponse"]["headers"]["Www-Authenticate"].indexOf("Duplicate")!=-1){
+			 	alert("Duplicate status Message.");
+			 }else{
+			 	alert("Failed to post Message to your wall.Please try again.");
+			 }
+				
+			
+		}else{
+			 alert("Failed to post Message to your wall.Please try again.");
+		}
+	}
+
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------
+*	Name    : showAppData
+*	Author  : Kony Inc.
+*	Purpose : In this  function, we handle the userinfo response from google/FB/Linkedin and show it on the form to the user.
+------------------------------------------------------------------------------------------------------------------------------------------------*/
 function showAppData(response)
 {
 	//error_loading.png
@@ -259,6 +343,12 @@ var _parseQuerystring = function(queryString) {
   	}
   	return params;
 };
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------
+*	Name    : appLogOut
+*	Author  : Kony Inc.
+*	Purpose : Function to handle app logout
+------------------------------------------------------------------------------------------------------------------------------------------------*/	
 function appLogOut()
 {
 	switch(btnId)
@@ -268,19 +358,39 @@ function appLogOut()
 		case "btnLinkedIn":frmLoginOptions.show();
 	}
 	frmProfileBrowser.show();
+
 }
+
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------
+*	Name    : fbLogout
+*	Author  : Kony Inc.
+*	Purpose : Function to handle Facebook logout
+------------------------------------------------------------------------------------------------------------------------------------------------*/	
 function fbLogout()
 {
 	fbLogoutUrl="https://www.facebook.com/logout.php?next=http://localhost:8080/&access_token="+fbAcessToken;
 	frmProfileBrowser.brwsrId.requestURLConfig ={ "URL":fbLogoutUrl,"requestMethod": constants.BROWSER_REQUEST_METHOD_GET};
 	frmProfileBrowser.brwsrId.handleRequest=handleLogout;
 }
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------
+*	Name    : fbLogout
+*	Author  : Kony Inc.
+*	Purpose : Function to handle Google logout
+------------------------------------------------------------------------------------------------------------------------------------------------*/	
 function googleLogout()
 {
 	gLogOutUrl="https://www.google.com/accounts/Logout";
 	frmProfileBrowser.brwsrId.requestURLConfig ={ "URL":gLogOutUrl,"requestMethod": constants.BROWSER_REQUEST_METHOD_POST};
 	frmProfileBrowser.brwsrId.handleRequest=handleLogout;
 }
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------
+*	Name    : fbLogout
+*	Author  : Kony Inc.
+*	Purpose : function to handle browser logout redirect
+------------------------------------------------------------------------------------------------------------------------------------------------*/	
 function handleLogout(browserWidget,params)
 {
 	fbAcessToken="";
