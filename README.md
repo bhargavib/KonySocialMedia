@@ -13,7 +13,7 @@ This Application showcases implementation of Oauth2 for Google, Faceboobk and Li
 
 configPropeties.js:
 
-// configure your client id and secret here
+//  configure your client id and secret here
 
 FBConfig = 
 
